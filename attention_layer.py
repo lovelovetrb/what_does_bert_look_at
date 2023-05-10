@@ -12,7 +12,7 @@ with open("config.yaml", encoding="utf-8") as yml:
     config = yaml.safe_load(yml)
 
 # モデルの読み込み
-model_name = config["model"]["name"]  
+model_name = config["model"]["name"]
 tokenizer = BertJapaneseTokenizer.from_pretrained(model_name)
 # output_attentions=TrueでAttentionを取得できる
 model = BertModel.from_pretrained(model_name, output_attentions=True)
@@ -27,25 +27,22 @@ outputs = model(
     tokens["input_ids"], attention_mask=tokens["attention_mask"]
 )  # Attentionの取得
 
-for i in range(len(outputs.attentions)):
-    # torch.Size([1, 12, 35, 35])
-    # 二次元目の12はAttention Headの数？
-    # 最終層で行われているAttentionの計算を他の層でも行うのが吉？
-    # print(f"attention {i} : {outputs.attentions[i].shape}")
+# ヒートマップの描画
+fig, axes = plt.subplots(nrows=3, ncols=4, figsize=(12, 9))
+for i, row_attention in enumerate(outputs.attentions):
+    print("Now Printing ... : Attention", i + 1)
+    attention = torch.mean(row_attention, dim=1)[0].detach().numpy()
 
-    # torch.mean : Tensorに対する平均を取る。dim=1
-    # outputs.attentions[-1] : 最後のレイヤーのAttention。Tensorのリスト。
-    # detach() : Tensorの計算グラフを切り離す
-    # numpy() : Tensorをnumpyに変換する
-    # [0] : バッチサイズが1なので、0番目の要素を取り出す
-    attention = (
-        torch.mean(outputs.attentions[i], dim=1)[0].Linear.detach().numpy()
-    ) 
-    # ヒートマップの作成
     sns.heatmap(
         attention,
         cmap="YlGnBu",
         xticklabels=tokenizer.convert_ids_to_tokens(tokens["input_ids"][0]),
         yticklabels=tokenizer.convert_ids_to_tokens(tokens["input_ids"][0]),
+        ax=axes[i // 4][i % 4],
     )
-    plt.savefig("./fig/attention_"+ str(i+1) +".png")
+    axes[i // 4][i % 4].set_title(f"Attention {i+1}")
+plt.tight_layout()
+plt.savefig("./fig/attention_after_norm.png")
+
+# 前のグラフをクリア
+plt.clf()
