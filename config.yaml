@@ -1,3 +1,3 @@
 model:
-  name: 'cl-tohoku/bert-base-japanese'
+  name: ['cl-tohoku/bert-base-japanese','rinna/japanese-roberta-base','rinna/japanese-gpt2-medium','studio-ousia/luke-japanese-base']
 
