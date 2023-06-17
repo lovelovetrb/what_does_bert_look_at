@@ -1,8 +1,6 @@
 import torch
 import yaml
-from transformers import BertJapaneseTokenizer, BertModel
-from transformers import T5Tokenizer, RobertaForMaskedLM
-from transformers import MLukeTokenizer, LukeModel
+from transformers import AutoTokenizer, AutoModelForCausalLM
 import seaborn as sns
 import matplotlib.pyplot as plt
 import japanize_matplotlib
@@ -13,33 +11,15 @@ __all__ = ["japanize_matplotlib"]
 
 
 def main(config):
-  
     # モデルの読み込み
-    model_name_list = config["model"]["name"]
+    model_name = "rinna/japanese-gpt2-medium"
 
-    for model_name in model_name_list:
-        print(f"Now Loading ... : {model_name}")
-        if model_name == "cl-tohoku/bert-base-japanese":
-            tokenizer = BertJapaneseTokenizer.from_pretrained(model_name)
-            # output_attentions=TrueでAttentionを取得できる
-            model = BertModel.from_pretrained(model_name, output_attentions=True)
-            gen_attention(tokenizer,model,model_name)
-        elif model_name == "rinna/japanese-roberta-base":
-            # load tokenizer
-            tokenizer = T5Tokenizer.from_pretrained("rinna/japanese-roberta-base")
-            tokenizer.do_lower_case = True  # due to some bug of tokenizer config loading
-            # load model
-            model = RobertaForMaskedLM.from_pretrained(model_name, output_attentions=True)
-            gen_attention(tokenizer,model,model_name)
-        elif model_name == "rinna/japanese-gpt2-medium":
-           pass 
-        elif model_name == "studio-ousia/luke-japanese-base":
-            tokenizer = MLukeTokenizer.from_pretrained(model_name)
-            model = LukeModel.from_pretrained(model_name, output_attentions=True )
-            gen_attention(tokenizer,model,model_name)
-        
-def gen_attention(tokenizer,model,model_name, nrows=3):
-     # テキストの読み込み
+    tokenizer = AutoTokenizer.from_pretrained(model_name, use_fast=False)
+    tokenizer.do_lower_case = True  # due to some bug of tokenizer config loading
+
+    model = AutoModelForCausalLM.from_pretrained(model_name, output_attentions=True)
+
+    # テキストの読み込み
     with open("./src/sentence.txt", encoding="utf-8") as f:
         index = 1
         # 一行ずつ読み込み while文で回す
@@ -63,12 +43,13 @@ def gen_attention(tokenizer,model,model_name, nrows=3):
             outputs = model(
                 tokens["input_ids"], attention_mask=tokens["attention_mask"]
             )  # type: ignore # Attentionの取得
-            gen_picture(tokens, outputs, tokenizer, model_name, index, nrows=nrows)
+            gen_picture(tokens, outputs, tokenizer, model_name, index)
+        
                 
-def gen_picture(tokens, outputs, tokenizer, model_name, index, nrows):
+def gen_picture(tokens, outputs, tokenizer, model_name, index):
     # ヒートマップの描画
     for i, row_attention in enumerate(outputs.attentions):
-        fig, axes = plt.subplots(nrows=nrows, ncols=4, figsize=(12, 9))
+        fig, axes = plt.subplots(nrows=4, ncols=4, figsize=(12, 9))
         print("Now Printing ... : Attention", i + 1)
         for j, head_attention in enumerate(row_attention[0]):
             print("Now Printing ... : Attention", i + 1, " /", "head", j + 1)
