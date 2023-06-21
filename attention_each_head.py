@@ -13,7 +13,6 @@ __all__ = ["japanize_matplotlib"]
 
 
 def main(config):
-  
     # モデルの読み込み
     model_name_list = config["model"]["name"]
 
@@ -32,12 +31,14 @@ def main(config):
             model = RobertaForMaskedLM.from_pretrained(model_name, output_attentions=True)
             gen_attention(tokenizer,model,model_name)
         elif model_name == "rinna/japanese-gpt2-medium":
-           pass 
+            tokenizer = AutoTokenizer.from_pretrained(model_name, use_fast=False)
+            tokenizer.do_lower_case = True  # due to some bug of tokenizer config loading
+            model = AutoModelForCausalLM.from_pretrained(model_name, output_attentions=True)
         elif model_name == "studio-ousia/luke-japanese-base":
             tokenizer = MLukeTokenizer.from_pretrained(model_name)
             model = LukeModel.from_pretrained(model_name, output_attentions=True )
             gen_attention(tokenizer,model,model_name)
-        
+
 def gen_attention(tokenizer,model,model_name, nrows=3):
      # テキストの読み込み
     with open("./src/sentence.txt", encoding="utf-8") as f:
@@ -64,7 +65,7 @@ def gen_attention(tokenizer,model,model_name, nrows=3):
                 tokens["input_ids"], attention_mask=tokens["attention_mask"]
             )  # type: ignore # Attentionの取得
             gen_picture(tokens, outputs, tokenizer, model_name, index, nrows=nrows)
-                
+
 def gen_picture(tokens, outputs, tokenizer, model_name, index, nrows):
     # ヒートマップの描画
     for i, row_attention in enumerate(outputs.attentions):
