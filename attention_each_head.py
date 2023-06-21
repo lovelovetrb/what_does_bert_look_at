@@ -33,12 +33,14 @@ def main(config):
         elif model_name == "rinna/japanese-gpt2-medium":
             tokenizer = AutoTokenizer.from_pretrained(model_name, use_fast=False)
             tokenizer.do_lower_case = True  # due to some bug of tokenizer config loading
-            model = AutoModelForCausalLM.from_pretrained(model_name, output_attentions=True)
+            model = AutoModelForCausalLM.from_pretrained(model_name, output_attentions=True, nrows=4)
         elif model_name == "studio-ousia/luke-japanese-base":
             tokenizer = MLukeTokenizer.from_pretrained(model_name)
             model = LukeModel.from_pretrained(model_name, output_attentions=True )
             gen_attention(tokenizer,model,model_name)
 
+# もしAttentionHeadの数が12以上ある場合は、nrowsを変更する
+# 与える値はHead数を4で割った値(切り上げ)
 def gen_attention(tokenizer,model,model_name, nrows=3):
      # テキストの読み込み
     with open("./src/sentence.txt", encoding="utf-8") as f:
