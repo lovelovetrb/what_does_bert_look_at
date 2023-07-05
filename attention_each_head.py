@@ -60,8 +60,10 @@ def main(config):
             )
 
 
-def gen_attention(tokenizer, model, model_name, nrows=3):
-    # テキストの読み込み
+# もしAttentionHeadの数が12以上ある場合は、nrowsを変更する
+# 与える値はHead数を4で割った値(切り上げ)
+def gen_attention(tokenizer ,model,model_name, nrows=3):
+     # テキストの読み込み
     with open("./src/sentence.txt", encoding="utf-8") as f:
         index = 1
         # 一行ずつ読み込み while文で回す
