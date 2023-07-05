@@ -1,0 +1,3060 @@
+Some weights of the model checkpoint at cl-tohoku/bert-base-japanese were not used when initializing BertModel: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.decoder.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Now Loading ... : cl-tohoku/bert-base-japanese
+------------------------
+今日は暖かい日で、心地よい風が吹いています。
+
+Now Printing ... : Attention 1
+Now Printing ... : Attention 1  / head 1
+0.0023859667
+Now Printing ... : Attention 1  / head 2
+0.0023202726
+Now Printing ... : Attention 1  / head 3
+0.0073934733
+Now Printing ... : Attention 1  / head 4
+0.0028084265
+Now Printing ... : Attention 1  / head 5
+0.001234689
+Now Printing ... : Attention 1  / head 6
+0.0017217048
+Now Printing ... : Attention 1  / head 7
+0.00099538
+Now Printing ... : Attention 1  / head 8
+0.0019219649
+Now Printing ... : Attention 1  / head 9
+0.0110389255
+Now Printing ... : Attention 1  / head 10
+0.0034009295
+Now Printing ... : Attention 1  / head 11
+0.001069944
+Now Printing ... : Attention 1  / head 12
+0.0047543813
+Now Printing ... : Attention 2
+Now Printing ... : Attention 2  / head 1
+0.0025355592
+Now Printing ... : Attention 2  / head 2
+0.0037316554
+Now Printing ... : Attention 2  / head 3
+0.013241018
+Now Printing ... : Attention 2  / head 4
+0.0022328899
+Now Printing ... : Attention 2  / head 5
+0.0012646433
+Now Printing ... : Attention 2  / head 6
+0.017796276
+Now Printing ... : Attention 2  / head 7
+0.002646343
+Now Printing ... : Attention 2  / head 8
+0.00220981
+Now Printing ... : Attention 2  / head 9
+0.0029988915
+Now Printing ... : Attention 2  / head 10
+0.0058929566
+Now Printing ... : Attention 2  / head 11
+0.00338414
+Now Printing ... : Attention 2  / head 12
+0.0031228303
+Now Printing ... : Attention 3
+Now Printing ... : Attention 3  / head 1
+0.0020690307
+Now Printing ... : Attention 3  / head 2
+0.0054454817
+Now Printing ... : Attention 3  / head 3
+0.0049257786
+Now Printing ... : Attention 3  / head 4
+0.005024333
+Now Printing ... : Attention 3  / head 5
+0.0033266728
+Now Printing ... : Attention 3  / head 6
+0.0023366832
+Now Printing ... : Attention 3  / head 7
+0.0031222724
+Now Printing ... : Attention 3  / head 8
+0.005587863
+Now Printing ... : Attention 3  / head 9
+0.003597741
+Now Printing ... : Attention 3  / head 10
+0.0020394328
+Now Printing ... : Attention 3  / head 11
+0.0032917627
+Now Printing ... : Attention 3  / head 12
+0.0014614589
+Now Printing ... : Attention 4
+Now Printing ... : Attention 4  / head 1
+0.0026122243
+Now Printing ... : Attention 4  / head 2
+0.003465187
+Now Printing ... : Attention 4  / head 3
+0.004046721
+Now Printing ... : Attention 4  / head 4
+0.0031969016
+Now Printing ... : Attention 4  / head 5
+0.0061093434
+Now Printing ... : Attention 4  / head 6
+0.0024639678
+Now Printing ... : Attention 4  / head 7
+0.003870731
+Now Printing ... : Attention 4  / head 8
+0.005018126
+Now Printing ... : Attention 4  / head 9
+0.004889575
+Now Printing ... : Attention 4  / head 10
+0.0023860922
+Now Printing ... : Attention 4  / head 11
+0.0018459461
+Now Printing ... : Attention 4  / head 12
+0.0038394833
+Now Printing ... : Attention 5
+Now Printing ... : Attention 5  / head 1
+0.0010854914
+Now Printing ... : Attention 5  / head 2
+0.001593063
+Now Printing ... : Attention 5  / head 3
+0.0025606174
+Now Printing ... : Attention 5  / head 4
+0.0027128255
+Now Printing ... : Attention 5  / head 5
+0.004067855
+Now Printing ... : Attention 5  / head 6
+0.0034891306
+Now Printing ... : Attention 5  / head 7
+0.0022974177
+Now Printing ... : Attention 5  / head 8
+0.0037864149
+Now Printing ... : Attention 5  / head 9
+0.003495226
+Now Printing ... : Attention 5  / head 10
+0.0015419209
+Now Printing ... : Attention 5  / head 11
+0.01644068
+Now Printing ... : Attention 5  / head 12
+0.0067752064
+Now Printing ... : Attention 6
+Now Printing ... : Attention 6  / head 1
+0.004710116
+Now Printing ... : Attention 6  / head 2
+0.004406769
+Now Printing ... : Attention 6  / head 3
+0.0048190476
+Now Printing ... : Attention 6  / head 4
+0.008227729
+Now Printing ... : Attention 6  / head 5
+0.00340208
+Now Printing ... : Attention 6  / head 6
+0.009600973
+Now Printing ... : Attention 6  / head 7
+0.0057739355
+Now Printing ... : Attention 6  / head 8
+0.0037335278
+Now Printing ... : Attention 6  / head 9
+0.0031271598
+Now Printing ... : Attention 6  / head 10
+0.014686024
+Now Printing ... : Attention 6  / head 11
+0.0014270439
+Now Printing ... : Attention 6  / head 12
+0.0030689037
+Now Printing ... : Attention 7
+Now Printing ... : Attention 7  / head 1
+0.0024074093
+Now Printing ... : Attention 7  / head 2
+0.004508503
+Now Printing ... : Attention 7  / head 3
+0.008789204
+Now Printing ... : Attention 7  / head 4
+0.0061699455
+Now Printing ... : Attention 7  / head 5
+0.006109142
+Now Printing ... : Attention 7  / head 6
+0.045718394
+Now Printing ... : Attention 7  / head 7
+0.009012184
+Now Printing ... : Attention 7  / head 8
+0.005170622
+Now Printing ... : Attention 7  / head 9
+0.0044025155
+Now Printing ... : Attention 7  / head 10
+0.0036384505
+Now Printing ... : Attention 7  / head 11
+0.005721852
+Now Printing ... : Attention 7  / head 12
+0.004205933
+Now Printing ... : Attention 8
+Now Printing ... : Attention 8  / head 1
+0.0068420256
+Now Printing ... : Attention 8  / head 2
+0.022088623
+Now Printing ... : Attention 8  / head 3
+0.014597641
+Now Printing ... : Attention 8  / head 4
+0.04641775
+Now Printing ... : Attention 8  / head 5
+0.012253377
+Now Printing ... : Attention 8  / head 6
+0.045020103
+Now Printing ... : Attention 8  / head 7
+0.04625458
+Now Printing ... : Attention 8  / head 8
+0.0057072625
+Now Printing ... : Attention 8  / head 9
+0.024501838
+Now Printing ... : Attention 8  / head 10
+0.009974361
+Now Printing ... : Attention 8  / head 11
+0.027198978
+Now Printing ... : Attention 8  / head 12
+0.005403856
+Now Printing ... : Attention 9
+Now Printing ... : Attention 9  / head 1
+0.02079837
+Now Printing ... : Attention 9  / head 2
+0.0106848935
+Now Printing ... : Attention 9  / head 3
+0.013666826
+Now Printing ... : Attention 9  / head 4
+0.012026351
+Now Printing ... : Attention 9  / head 5
+0.044359993
+Now Printing ... : Attention 9  / head 6
+0.01264951
+Now Printing ... : Attention 9  / head 7
+0.03002469
+Now Printing ... : Attention 9  / head 8
+0.017662678
+Now Printing ... : Attention 9  / head 9
+0.022110851
+Now Printing ... : Attention 9  / head 10
+0.009896173
+Now Printing ... : Attention 9  / head 11
+0.0176118
+Now Printing ... : Attention 9  / head 12
+0.022845862
+Now Printing ... : Attention 10
+Now Printing ... : Attention 10  / head 1
+0.01685903
+Now Printing ... : Attention 10  / head 2
+0.0077765705
+Now Printing ... : Attention 10  / head 3
+0.0061339824
+Now Printing ... : Attention 10  / head 4
+0.008402866
+Now Printing ... : Attention 10  / head 5
+0.010866735
+Now Printing ... : Attention 10  / head 6
+0.009537634
+Now Printing ... : Attention 10  / head 7
+0.011138406
+Now Printing ... : Attention 10  / head 8
+0.011310992
+Now Printing ... : Attention 10  / head 9
+0.012838328
+Now Printing ... : Attention 10  / head 10
+0.021336377
+Now Printing ... : Attention 10  / head 11
+0.010625374
+Now Printing ... : Attention 10  / head 12
+0.011156399
+Now Printing ... : Attention 11
+Now Printing ... : Attention 11  / head 1
+0.012540555
+Now Printing ... : Attention 11  / head 2
+0.008750551
+Now Printing ... : Attention 11  / head 3
+0.0081021525
+Now Printing ... : Attention 11  / head 4
+0.012623639
+Now Printing ... : Attention 11  / head 5
+0.012369655
+Now Printing ... : Attention 11  / head 6
+0.007532777
+Now Printing ... : Attention 11  / head 7
+0.014294889
+Now Printing ... : Attention 11  / head 8
+0.017368464
+Now Printing ... : Attention 11  / head 9
+0.014355647
+Now Printing ... : Attention 11  / head 10
+0.016622698
+Now Printing ... : Attention 11  / head 11
+0.011179204
+Now Printing ... : Attention 11  / head 12
+0.008275461
+Now Printing ... : Attention 12
+Now Printing ... : Attention 12  / head 1
+0.018592292
+Now Printing ... : Attention 12  / head 2
+0.010380707
+Now Printing ... : Attention 12  / head 3
+0.011244831
+Now Printing ... : Attention 12  / head 4
+0.016572785
+Now Printing ... : Attention 12  / head 5
+0.012999725
+Now Printing ... : Attention 12  / head 6
+0.011522143
+Now Printing ... : Attention 12  / head 7
+0.01762832
+Now Printing ... : Attention 12  / head 8
+0.017189395
+Now Printing ... : Attention 12  / head 9
+0.009826303
+Now Printing ... : Attention 12  / head 10
+0.015138519
+Now Printing ... : Attention 12  / head 11
+0.012343805
+Now Printing ... : Attention 12  / head 12
+0.014170191
+------------------------
+近くの公園で子供たちが元気に遊んでいます。
+
+Now Printing ... : Attention 1
+Now Printing ... : Attention 1  / head 1
+0.0033023162
+Now Printing ... : Attention 1  / head 2
+0.003469762
+Now Printing ... : Attention 1  / head 3
+0.014104424
+Now Printing ... : Attention 1  / head 4
+0.0052405177
+Now Printing ... : Attention 1  / head 5
+0.0030082483
+Now Printing ... : Attention 1  / head 6
+0.002596455
+Now Printing ... : Attention 1  / head 7
+0.0017594314
+Now Printing ... : Attention 1  / head 8
+0.0021201265
+Now Printing ... : Attention 1  / head 9
+0.011490114
+Now Printing ... : Attention 1  / head 10
+0.0049564894
+Now Printing ... : Attention 1  / head 11
+0.0016492376
+Now Printing ... : Attention 1  / head 12
+0.0071820216
+Now Printing ... : Attention 2
+Now Printing ... : Attention 2  / head 1
+0.0019261905
+Now Printing ... : Attention 2  / head 2
+0.0038603246
+Now Printing ... : Attention 2  / head 3
+0.016317993
+Now Printing ... : Attention 2  / head 4
+0.0038020595
+Now Printing ... : Attention 2  / head 5
+0.0018043655
+Now Printing ... : Attention 2  / head 6
+0.02652929
+Now Printing ... : Attention 2  / head 7
+0.003183683
+Now Printing ... : Attention 2  / head 8
+0.0035640353
+Now Printing ... : Attention 2  / head 9
+0.0045058858
+Now Printing ... : Attention 2  / head 10
+0.0038740886
+Now Printing ... : Attention 2  / head 11
+0.002253774
+Now Printing ... : Attention 2  / head 12
+0.003729169
+Now Printing ... : Attention 3
+Now Printing ... : Attention 3  / head 1
+0.0023796353
+Now Printing ... : Attention 3  / head 2
+0.007282235
+Now Printing ... : Attention 3  / head 3
+0.004348448
+Now Printing ... : Attention 3  / head 4
+0.00572026
+Now Printing ... : Attention 3  / head 5
+0.00293021
+Now Printing ... : Attention 3  / head 6
+0.0037160541
+Now Printing ... : Attention 3  / head 7
+0.00293137
+Now Printing ... : Attention 3  / head 8
+0.0044385623
+Now Printing ... : Attention 3  / head 9
+0.0038227336
+Now Printing ... : Attention 3  / head 10
+0.0023597977
+Now Printing ... : Attention 3  / head 11
+0.004718558
+Now Printing ... : Attention 3  / head 12
+0.0015936659
+Now Printing ... : Attention 4
+Now Printing ... : Attention 4  / head 1
+0.0022865313
+Now Printing ... : Attention 4  / head 2
+0.003741499
+Now Printing ... : Attention 4  / head 3
+0.00531481
+Now Printing ... : Attention 4  / head 4
+0.0056157485
+Now Printing ... : Attention 4  / head 5
+0.0080460245
+Now Printing ... : Attention 4  / head 6
+0.0024962062
+Now Printing ... : Attention 4  / head 7
+0.00491874
+Now Printing ... : Attention 4  / head 8
+0.004135242
+Now Printing ... : Attention 4  / head 9
+0.0052578244
+Now Printing ... : Attention 4  / head 10
+0.003009899
+Now Printing ... : Attention 4  / head 11
+0.0038755627
+Now Printing ... : Attention 4  / head 12
+0.0028396018
+Now Printing ... : Attention 5
+Now Printing ... : Attention 5  / head 1
+0.0016664991
+Now Printing ... : Attention 5  / head 2
+0.0021204795
+Now Printing ... : Attention 5  / head 3
+0.0032838196
+Now Printing ... : Attention 5  / head 4
+0.0027321074
+Now Printing ... : Attention 5  / head 5
+0.0021058868
+Now Printing ... : Attention 5  / head 6
+0.005051217
+Now Printing ... : Attention 5  / head 7
+0.0032039639
+Now Printing ... : Attention 5  / head 8
+0.003947178
+Now Printing ... : Attention 5  / head 9
+0.0032188862
+Now Printing ... : Attention 5  / head 10
+0.0021133684
+Now Printing ... : Attention 5  / head 11
+0.018588793
+Now Printing ... : Attention 5  / head 12
+0.004956317
+Now Printing ... : Attention 6
+Now Printing ... : Attention 6  / head 1
+0.0047490494
+Now Printing ... : Attention 6  / head 2
+0.0060325293
+Now Printing ... : Attention 6  / head 3
+0.007536458
+Now Printing ... : Attention 6  / head 4
+0.007447796
+Now Printing ... : Attention 6  / head 5
+0.0034575965
+Now Printing ... : Attention 6  / head 6
+0.013002805
+Now Printing ... : Attention 6  / head 7
+0.00818627
+Now Printing ... : Attention 6  / head 8
+0.003660358
+Now Printing ... : Attention 6  / head 9
+0.004062484
+Now Printing ... : Attention 6  / head 10
+0.021307524
+Now Printing ... : Attention 6  / head 11
+0.0025451123
+Now Printing ... : Attention 6  / head 12
+0.0028605564
+Now Printing ... : Attention 7
+Now Printing ... : Attention 7  / head 1
+0.0037086434
+Now Printing ... : Attention 7  / head 2
+0.005879836
+Now Printing ... : Attention 7  / head 3
+0.009994719
+Now Printing ... : Attention 7  / head 4
+0.0076678833
+Now Printing ... : Attention 7  / head 5
+0.006044451
+Now Printing ... : Attention 7  / head 6
+0.054880094
+Now Printing ... : Attention 7  / head 7
+0.0061477665
+Now Printing ... : Attention 7  / head 8
+0.0065152077
+Now Printing ... : Attention 7  / head 9
+0.0057252813
+Now Printing ... : Attention 7  / head 10
+0.0047125956
+Now Printing ... : Attention 7  / head 11
+0.0107320845
+Now Printing ... : Attention 7  / head 12
+0.0039095087
+Now Printing ... : Attention 8
+Now Printing ... : Attention 8  / head 1
+0.010125385
+Now Printing ... : Attention 8  / head 2
+0.023741653
+Now Printing ... : Attention 8  / head 3
+0.015786227
+Now Printing ... : Attention 8  / head 4
+0.055647433
+Now Printing ... : Attention 8  / head 5
+0.014197957
+Now Printing ... : Attention 8  / head 6
+0.05599404
+Now Printing ... : Attention 8  / head 7
+0.05547931
+Now Printing ... : Attention 8  / head 8
+0.008149035
+Now Printing ... : Attention 8  / head 9
+0.023715429
+Now Printing ... : Attention 8  / head 10
+0.009236242
+Now Printing ... : Attention 8  / head 11
+0.02482944
+Now Printing ... : Attention 8  / head 12
+0.005779279
+Now Printing ... : Attention 9
+Now Printing ... : Attention 9  / head 1
+0.024055917
+Now Printing ... : Attention 9  / head 2
+0.010982886
+Now Printing ... : Attention 9  / head 3
+0.016340392
+Now Printing ... : Attention 9  / head 4
+0.015261028
+Now Printing ... : Attention 9  / head 5
+0.054639656
+Now Printing ... : Attention 9  / head 6
+0.0149989
+Now Printing ... : Attention 9  / head 7
+0.036018312
+Now Printing ... : Attention 9  / head 8
+0.021648675
+Now Printing ... : Attention 9  / head 9
+0.027517077
+Now Printing ... : Attention 9  / head 10
+0.017162886
+Now Printing ... : Attention 9  / head 11
+0.020707726
+Now Printing ... : Attention 9  / head 12
+0.023786848
+Now Printing ... : Attention 10
+Now Printing ... : Attention 10  / head 1
+0.023026545
+Now Printing ... : Attention 10  / head 2
+0.0067034396
+Now Printing ... : Attention 10  / head 3
+0.007592796
+Now Printing ... : Attention 10  / head 4
+0.010208393
+Now Printing ... : Attention 10  / head 5
+0.015592646
+Now Printing ... : Attention 10  / head 6
+0.009755273
+Now Printing ... : Attention 10  / head 7
+0.01059516
+Now Printing ... : Attention 10  / head 8
+0.016363384
+Now Printing ... : Attention 10  / head 9
+0.016241467
+Now Printing ... : Attention 10  / head 10
+0.024890766
+Now Printing ... : Attention 10  / head 11
+0.010259093
+Now Printing ... : Attention 10  / head 12
+0.013241743
+Now Printing ... : Attention 11
+Now Printing ... : Attention 11  / head 1
+0.011127246
+Now Printing ... : Attention 11  / head 2
+0.012602246
+Now Printing ... : Attention 11  / head 3
+0.008342758
+Now Printing ... : Attention 11  / head 4
+0.014414963
+Now Printing ... : Attention 11  / head 5
+0.0119534135
+Now Printing ... : Attention 11  / head 6
+0.010555379
+Now Printing ... : Attention 11  / head 7
+0.015475626
+Now Printing ... : Attention 11  / head 8
+0.021511756
+Now Printing ... : Attention 11  / head 9
+0.016876046
+Now Printing ... : Attention 11  / head 10
+0.020574287
+Now Printing ... : Attention 11  / head 11
+0.012762804
+Now Printing ... : Attention 11  / head 12
+0.010030884
+Now Printing ... : Attention 12
+Now Printing ... : Attention 12  / head 1
+0.019392032
+Now Printing ... : Attention 12  / head 2
+0.013015553
+Now Printing ... : Attention 12  / head 3
+0.013651298
+Now Printing ... : Attention 12  / head 4
+0.019929055
+Now Printing ... : Attention 12  / head 5
+0.014296738
+Now Printing ... : Attention 12  / head 6
+0.014306976
+Now Printing ... : Attention 12  / head 7
+0.015503769
+Now Printing ... : Attention 12  / head 8
+0.020005103
+Now Printing ... : Attention 12  / head 9
+0.010129733
+Now Printing ... : Attention 12  / head 10
+0.016672187
+Now Printing ... : Attention 12  / head 11
+0.0132635515
+Now Printing ... : Attention 12  / head 12
+0.015394459
+------------------------
+家族と一緒に美味しいランチを楽しみました。
+
+Now Printing ... : Attention 1
+Now Printing ... : Attention 1  / head 1
+0.004299846
+Now Printing ... : Attention 1  / head 2
+0.0036760354
+Now Printing ... : Attention 1  / head 3
+0.016985314
+Now Printing ... : Attention 1  / head 4
+0.005348343
+Now Printing ... : Attention 1  / head 5
+0.0023870757
+Now Printing ... : Attention 1  / head 6
+0.0020028187
+Now Printing ... : Attention 1  / head 7
+0.00243127
+Now Printing ... : Attention 1  / head 8
+0.0035622218
+Now Printing ... : Attention 1  / head 9
+0.019411778
+Now Printing ... : Attention 1  / head 10
+0.00610514
+Now Printing ... : Attention 1  / head 11
+0.0023749757
+Now Printing ... : Attention 1  / head 12
+0.010905791
+Now Printing ... : Attention 2
+Now Printing ... : Attention 2  / head 1
+0.0025686931
+Now Printing ... : Attention 2  / head 2
+0.006208479
+Now Printing ... : Attention 2  / head 3
+0.01356774
+Now Printing ... : Attention 2  / head 4
+0.0040278174
+Now Printing ... : Attention 2  / head 5
+0.0026260312
+Now Printing ... : Attention 2  / head 6
+0.022292584
+Now Printing ... : Attention 2  / head 7
+0.0037018156
+Now Printing ... : Attention 2  / head 8
+0.004291461
+Now Printing ... : Attention 2  / head 9
+0.0055529256
+Now Printing ... : Attention 2  / head 10
+0.0056734965
+Now Printing ... : Attention 2  / head 11
+0.003716071
+Now Printing ... : Attention 2  / head 12
+0.0045044753
+Now Printing ... : Attention 3
+Now Printing ... : Attention 3  / head 1
+0.0026641577
+Now Printing ... : Attention 3  / head 2
+0.009430724
+Now Printing ... : Attention 3  / head 3
+0.00645488
+Now Printing ... : Attention 3  / head 4
+0.0070898184
+Now Printing ... : Attention 3  / head 5
+0.004480872
+Now Printing ... : Attention 3  / head 6
+0.005432757
+Now Printing ... : Attention 3  / head 7
+0.006192756
+Now Printing ... : Attention 3  / head 8
+0.0056331237
+Now Printing ... : Attention 3  / head 9
+0.0039679576
+Now Printing ... : Attention 3  / head 10
+0.0033863517
+Now Printing ... : Attention 3  / head 11
+0.005181831
+Now Printing ... : Attention 3  / head 12
+0.0017318744
+Now Printing ... : Attention 4
+Now Printing ... : Attention 4  / head 1
+0.0039523155
+Now Printing ... : Attention 4  / head 2
+0.005445048
+Now Printing ... : Attention 4  / head 3
+0.008214263
+Now Printing ... : Attention 4  / head 4
+0.006072834
+Now Printing ... : Attention 4  / head 5
+0.0074483487
+Now Printing ... : Attention 4  / head 6
+0.00459751
+Now Printing ... : Attention 4  / head 7
+0.0071883583
+Now Printing ... : Attention 4  / head 8
+0.006685461
+Now Printing ... : Attention 4  / head 9
+0.005857189
+Now Printing ... : Attention 4  / head 10
+0.0045121387
+Now Printing ... : Attention 4  / head 11
+0.004050177
+Now Printing ... : Attention 4  / head 12
+0.005937641
+Now Printing ... : Attention 5
+Now Printing ... : Attention 5  / head 1
+0.0019882987
+Now Printing ... : Attention 5  / head 2
+0.0047040344
+Now Printing ... : Attention 5  / head 3
+0.005366072
+Now Printing ... : Attention 5  / head 4
+0.004934283
+Now Printing ... : Attention 5  / head 5
+0.004068351
+Now Printing ... : Attention 5  / head 6
+0.0057904595
+Now Printing ... : Attention 5  / head 7
+0.0035866853
+Now Printing ... : Attention 5  / head 8
+0.00785262
+Now Printing ... : Attention 5  / head 9
+0.0044521047
+Now Printing ... : Attention 5  / head 10
+0.0027577304
+Now Printing ... : Attention 5  / head 11
+0.019962145
+Now Printing ... : Attention 5  / head 12
+0.006681515
+Now Printing ... : Attention 6
+Now Printing ... : Attention 6  / head 1
+0.005627529
+Now Printing ... : Attention 6  / head 2
+0.003989781
+Now Printing ... : Attention 6  / head 3
+0.0064023873
+Now Printing ... : Attention 6  / head 4
+0.007441978
+Now Printing ... : Attention 6  / head 5
+0.0049843136
+Now Printing ... : Attention 6  / head 6
+0.014150011
+Now Printing ... : Attention 6  / head 7
+0.009833479
+Now Printing ... : Attention 6  / head 8
+0.006402101
+Now Printing ... : Attention 6  / head 9
+0.0049535115
+Now Printing ... : Attention 6  / head 10
+0.022077624
+Now Printing ... : Attention 6  / head 11
+0.003179687
+Now Printing ... : Attention 6  / head 12
+0.005281674
+Now Printing ... : Attention 7
+Now Printing ... : Attention 7  / head 1
+0.00568282
+Now Printing ... : Attention 7  / head 2
+0.0062624793
+Now Printing ... : Attention 7  / head 3
+0.012396633
+Now Printing ... : Attention 7  / head 4
+0.011618377
+Now Printing ... : Attention 7  / head 5
+0.006698966
+Now Printing ... : Attention 7  / head 6
+0.058225505
+Now Printing ... : Attention 7  / head 7
+0.0061071143
+Now Printing ... : Attention 7  / head 8
+0.01006425
+Now Printing ... : Attention 7  / head 9
+0.0061668386
+Now Printing ... : Attention 7  / head 10
+0.0041872766
+Now Printing ... : Attention 7  / head 11
+0.009508163
+Now Printing ... : Attention 7  / head 12
+0.005263804
+Now Printing ... : Attention 8
+Now Printing ... : Attention 8  / head 1
+0.011098461
+Now Printing ... : Attention 8  / head 2
+0.019941954
+Now Printing ... : Attention 8  / head 3
+0.012125605
+Now Printing ... : Attention 8  / head 4
+0.060013086
+Now Printing ... : Attention 8  / head 5
+0.012625953
+Now Printing ... : Attention 8  / head 6
+0.05849829
+Now Printing ... : Attention 8  / head 7
+0.059058223
+Now Printing ... : Attention 8  / head 8
+0.008556837
+Now Printing ... : Attention 8  / head 9
+0.028847529
+Now Printing ... : Attention 8  / head 10
+0.007679838
+Now Printing ... : Attention 8  / head 11
+0.028322654
+Now Printing ... : Attention 8  / head 12
+0.0068028304
+Now Printing ... : Attention 9
+Now Printing ... : Attention 9  / head 1
+0.024226518
+Now Printing ... : Attention 9  / head 2
+0.0115602845
+Now Printing ... : Attention 9  / head 3
+0.015187192
+Now Printing ... : Attention 9  / head 4
+0.015304565
+Now Printing ... : Attention 9  / head 5
+0.05657614
+Now Printing ... : Attention 9  / head 6
+0.013686489
+Now Printing ... : Attention 9  / head 7
+0.032283295
+Now Printing ... : Attention 9  / head 8
+0.024954168
+Now Printing ... : Attention 9  / head 9
+0.026696345
+Now Printing ... : Attention 9  / head 10
+0.014898285
+Now Printing ... : Attention 9  / head 11
+0.020100988
+Now Printing ... : Attention 9  / head 12
+0.025494877
+Now Printing ... : Attention 10
+Now Printing ... : Attention 10  / head 1
+0.020382617
+Now Printing ... : Attention 10  / head 2
+0.008871637
+Now Printing ... : Attention 10  / head 3
+0.011231545
+Now Printing ... : Attention 10  / head 4
+0.009240792
+Now Printing ... : Attention 10  / head 5
+0.014012684
+Now Printing ... : Attention 10  / head 6
+0.011220975
+Now Printing ... : Attention 10  / head 7
+0.012869275
+Now Printing ... : Attention 10  / head 8
+0.012511075
+Now Printing ... : Attention 10  / head 9
+0.017052168
+Now Printing ... : Attention 10  / head 10
+0.030244568
+Now Printing ... : Attention 10  / head 11
+0.011660581
+Now Printing ... : Attention 10  / head 12
+0.014602877
+Now Printing ... : Attention 11
+Now Printing ... : Attention 11  / head 1
+0.010659174
+Now Printing ... : Attention 11  / head 2
+0.013315099
+Now Printing ... : Attention 11  / head 3
+0.010871562
+Now Printing ... : Attention 11  / head 4
+0.015685832
+Now Printing ... : Attention 11  / head 5
+0.016199665
+Now Printing ... : Attention 11  / head 6
+0.010982558
+Now Printing ... : Attention 11  / head 7
+0.016009536
+Now Printing ... : Attention 11  / head 8
+0.020804545
+Now Printing ... : Attention 11  / head 9
+0.016851297
+Now Printing ... : Attention 11  / head 10
+0.021987665
+Now Printing ... : Attention 11  / head 11
+0.013144093
+Now Printing ... : Attention 11  / head 12
+0.010758703
+Now Printing ... : Attention 12
+Now Printing ... : Attention 12  / head 1
+0.022280341
+Now Printing ... : Attention 12  / head 2
+0.016736096
+Now Printing ... : Attention 12  / head 3
+0.016946392
+Now Printing ... : Attention 12  / head 4
+0.020624263
+Now Printing ... : Attention 12  / head 5
+0.015519832
+Now Printing ... : Attention 12  / head 6
+0.015149322
+Now Printing ... : Attention 12  / head 7
+0.020912154
+Now Printing ... : Attention 12  / head 8
+0.021557702
+Now Printing ... : Attention 12  / head 9
+0.01504717
+Now Printing ... : Attention 12  / head 10
+0.021867048
+Now Printing ... : Attention 12  / head 11
+0.016038014
+Now Printing ... : Attention 12  / head 12
+0.01927662
+------------------------
+花の香りが漂って、春の訪れを感じます。
+
+Now Printing ... : Attention 1
+Now Printing ... : Attention 1  / head 1
+0.0038181217
+Now Printing ... : Attention 1  / head 2
+0.003480898
+Now Printing ... : Attention 1  / head 3
+0.013570748
+Now Printing ... : Attention 1  / head 4
+0.0038501746
+Now Printing ... : Attention 1  / head 5
+0.0018001185
+Now Printing ... : Attention 1  / head 6
+0.0018760602
+Now Printing ... : Attention 1  / head 7
+0.0022503426
+Now Printing ... : Attention 1  / head 8
+0.0035137099
+Now Printing ... : Attention 1  / head 9
+0.00935213
+Now Printing ... : Attention 1  / head 10
+0.0040548476
+Now Printing ... : Attention 1  / head 11
+0.0013798743
+Now Printing ... : Attention 1  / head 12
+0.005870493
+Now Printing ... : Attention 2
+Now Printing ... : Attention 2  / head 1
+0.00240903
+Now Printing ... : Attention 2  / head 2
+0.0041071163
+Now Printing ... : Attention 2  / head 3
+0.012204987
+Now Printing ... : Attention 2  / head 4
+0.0032797058
+Now Printing ... : Attention 2  / head 5
+0.0013816522
+Now Printing ... : Attention 2  / head 6
+0.022233484
+Now Printing ... : Attention 2  / head 7
+0.0022692154
+Now Printing ... : Attention 2  / head 8
+0.0022912817
+Now Printing ... : Attention 2  / head 9
+0.002427744
+Now Printing ... : Attention 2  / head 10
+0.003020535
+Now Printing ... : Attention 2  / head 11
+0.0026271003
+Now Printing ... : Attention 2  / head 12
+0.0029713584
+Now Printing ... : Attention 3
+Now Printing ... : Attention 3  / head 1
+0.0019016282
+Now Printing ... : Attention 3  / head 2
+0.0049481783
+Now Printing ... : Attention 3  / head 3
+0.004081717
+Now Printing ... : Attention 3  / head 4
+0.0049762214
+Now Printing ... : Attention 3  / head 5
+0.002131911
+Now Printing ... : Attention 3  / head 6
+0.002694852
+Now Printing ... : Attention 3  / head 7
+0.003949969
+Now Printing ... : Attention 3  / head 8
+0.004124993
+Now Printing ... : Attention 3  / head 9
+0.0031481115
+Now Printing ... : Attention 3  / head 10
+0.0022980305
+Now Printing ... : Attention 3  / head 11
+0.0029511712
+Now Printing ... : Attention 3  / head 12
+0.001609946
+Now Printing ... : Attention 4
+Now Printing ... : Attention 4  / head 1
+0.002283349
+Now Printing ... : Attention 4  / head 2
+0.0029340682
+Now Printing ... : Attention 4  / head 3
+0.00432408
+Now Printing ... : Attention 4  / head 4
+0.0037592691
+Now Printing ... : Attention 4  / head 5
+0.0054006744
+Now Printing ... : Attention 4  / head 6
+0.0028685152
+Now Printing ... : Attention 4  / head 7
+0.0038478544
+Now Printing ... : Attention 4  / head 8
+0.004451289
+Now Printing ... : Attention 4  / head 9
+0.003003706
+Now Printing ... : Attention 4  / head 10
+0.003586046
+Now Printing ... : Attention 4  / head 11
+0.0032514262
+Now Printing ... : Attention 4  / head 12
+0.0027511623
+Now Printing ... : Attention 5
+Now Printing ... : Attention 5  / head 1
+0.0010651564
+Now Printing ... : Attention 5  / head 2
+0.0023708967
+Now Printing ... : Attention 5  / head 3
+0.0034365086
+Now Printing ... : Attention 5  / head 4
+0.0033040303
+Now Printing ... : Attention 5  / head 5
+0.003497269
+Now Printing ... : Attention 5  / head 6
+0.0037547725
+Now Printing ... : Attention 5  / head 7
+0.0035488622
+Now Printing ... : Attention 5  / head 8
+0.0036265792
+Now Printing ... : Attention 5  / head 9
+0.0032129604
+Now Printing ... : Attention 5  / head 10
+0.0021237796
+Now Printing ... : Attention 5  / head 11
+0.019079685
+Now Printing ... : Attention 5  / head 12
+0.004951718
+Now Printing ... : Attention 6
+Now Printing ... : Attention 6  / head 1
+0.0054781274
+Now Printing ... : Attention 6  / head 2
+0.005175321
+Now Printing ... : Attention 6  / head 3
+0.0053331503
+Now Printing ... : Attention 6  / head 4
+0.0052663437
+Now Printing ... : Attention 6  / head 5
+0.0027868568
+Now Printing ... : Attention 6  / head 6
+0.010131145
+Now Printing ... : Attention 6  / head 7
+0.0055988403
+Now Printing ... : Attention 6  / head 8
+0.0051735793
+Now Printing ... : Attention 6  / head 9
+0.004253716
+Now Printing ... : Attention 6  / head 10
+0.01789453
+Now Printing ... : Attention 6  / head 11
+0.0020949095
+Now Printing ... : Attention 6  / head 12
+0.00322408
+Now Printing ... : Attention 7
+Now Printing ... : Attention 7  / head 1
+0.0032290383
+Now Printing ... : Attention 7  / head 2
+0.006129355
+Now Printing ... : Attention 7  / head 3
+0.009765
+Now Printing ... : Attention 7  / head 4
+0.0054368093
+Now Printing ... : Attention 7  / head 5
+0.0043676766
+Now Printing ... : Attention 7  / head 6
+0.051720776
+Now Printing ... : Attention 7  / head 7
+0.004966292
+Now Printing ... : Attention 7  / head 8
+0.0057837656
+Now Printing ... : Attention 7  / head 9
+0.006083637
+Now Printing ... : Attention 7  / head 10
+0.003478643
+Now Printing ... : Attention 7  / head 11
+0.0070305457
+Now Printing ... : Attention 7  / head 12
+0.0045821806
+Now Printing ... : Attention 8
+Now Printing ... : Attention 8  / head 1
+0.007963978
+Now Printing ... : Attention 8  / head 2
+0.022320315
+Now Printing ... : Attention 8  / head 3
+0.014349283
+Now Printing ... : Attention 8  / head 4
+0.054210097
+Now Printing ... : Attention 8  / head 5
+0.01218765
+Now Printing ... : Attention 8  / head 6
+0.049808543
+Now Printing ... : Attention 8  / head 7
+0.053161096
+Now Printing ... : Attention 8  / head 8
+0.0066617047
+Now Printing ... : Attention 8  / head 9
+0.02332987
+Now Printing ... : Attention 8  / head 10
+0.009020925
+Now Printing ... : Attention 8  / head 11
+0.025516849
+Now Printing ... : Attention 8  / head 12
+0.005758717
+Now Printing ... : Attention 9
+Now Printing ... : Attention 9  / head 1
+0.023300145
+Now Printing ... : Attention 9  / head 2
+0.010651813
+Now Printing ... : Attention 9  / head 3
+0.017629448
+Now Printing ... : Attention 9  / head 4
+0.01661996
+Now Printing ... : Attention 9  / head 5
+0.05008098
+Now Printing ... : Attention 9  / head 6
+0.011280404
+Now Printing ... : Attention 9  / head 7
+0.034937307
+Now Printing ... : Attention 9  / head 8
+0.020488877
+Now Printing ... : Attention 9  / head 9
+0.02486388
+Now Printing ... : Attention 9  / head 10
+0.021580048
+Now Printing ... : Attention 9  / head 11
+0.018930268
+Now Printing ... : Attention 9  / head 12
+0.026678357
+Now Printing ... : Attention 10
+Now Printing ... : Attention 10  / head 1
+0.020398382
+Now Printing ... : Attention 10  / head 2
+0.008660762
+Now Printing ... : Attention 10  / head 3
+0.00933731
+Now Printing ... : Attention 10  / head 4
+0.009407591
+Now Printing ... : Attention 10  / head 5
+0.014538844
+Now Printing ... : Attention 10  / head 6
+0.009213326
+Now Printing ... : Attention 10  / head 7
+0.012287929
+Now Printing ... : Attention 10  / head 8
+0.010566287
+Now Printing ... : Attention 10  / head 9
+0.020244995
+Now Printing ... : Attention 10  / head 10
+0.028177971
+Now Printing ... : Attention 10  / head 11
+0.010787881
+Now Printing ... : Attention 10  / head 12
+0.015792526
+Now Printing ... : Attention 11
+Now Printing ... : Attention 11  / head 1
+0.008456068
+Now Printing ... : Attention 11  / head 2
+0.012224604
+Now Printing ... : Attention 11  / head 3
+0.0113146305
+Now Printing ... : Attention 11  / head 4
+0.014233332
+Now Printing ... : Attention 11  / head 5
+0.013801976
+Now Printing ... : Attention 11  / head 6
+0.0106458645
+Now Printing ... : Attention 11  / head 7
+0.016215235
+Now Printing ... : Attention 11  / head 8
+0.021325782
+Now Printing ... : Attention 11  / head 9
+0.016242154
+Now Printing ... : Attention 11  / head 10
+0.022934144
+Now Printing ... : Attention 11  / head 11
+0.0124453185
+Now Printing ... : Attention 11  / head 12
+0.010421623
+Now Printing ... : Attention 12
+Now Printing ... : Attention 12  / head 1
+0.019372324
+Now Printing ... : Attention 12  / head 2
+0.014376677
+Now Printing ... : Attention 12  / head 3
+0.013955116
+Now Printing ... : Attention 12  / head 4
+0.018202716
+Now Printing ... : Attention 12  / head 5
+0.013709036
+Now Printing ... : Attention 12  / head 6
+0.011202759
+Now Printing ... : Attention 12  / head 7
+0.014236348
+Now Printing ... : Attention 12  / head 8
+0.018226419
+Now Printing ... : Attention 12  / head 9
+0.013753624
+Now Printing ... : Attention 12 cmake
+convert-caffe2-to-onnx
+convert-onnx-to-caffe2
+cpack
+ctest
+f2py
+f2py3
+f2py3.10
+fonttools
+fugashi
+fugashi-build-dict
+fugashi-info
+huggingface-cli
+isympy
+lit
+normalizer
+pyftmerge
+pyftsubset
+python
+python3
+python3.10
+torchrun
+tqdm
+transformers-cli
+ttx
+wheel
+Some weights of the model checkpoint at cl-tohoku/bert-base-japanese were not used when initializing BertModel: ['cls.seq_relationship.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.decoder.weight', 'cls.predictions.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Now Loading ... : cl-tohoku/bert-base-japanese
+------------------------
+暑中休暇を利用して海水浴に行った友達からぜひ来いという端書はがきを受け取ったので、私は多少の金を工面して、出掛ける事にした。
+
+Now Printing ... : Attention 1
+Now Printing ... : Attention 1  / head 1
+0.0008012375
+Now Printing ... : Attention 1  / head 2
+0.0006187396
+Now Printing ... : Attention 1  / head 3
+0.0016952041
+Now Printing ... : Attention 1  / head 4
+0.00046554083
+Now Printing ... : Attention 1  / head 5
+0.00023036763
+Now Printing ... : Attention 1  / head 6
+0.00027594058
+Now Printing ... : Attention 1  / head 7
+0.0001692739
+Now Printing ... : Attention 1  / head 8
+0.00035095608
+Now Printing ... : Attention 1  / head 9
+0.004078883
+Now Printing ... : Attention 1  / head 10
+0.0006622346
+Now Printing ... : Attention 1  / head 11
+0.00023841216
+Now Printing ... : Attention 1  / head 12
+0.00078218227
+Now Printing ... : Attention 2
+Now Printing ... : Attention 2  / head 1
+0.00070353807
+Now Printing ... : Attention 2  / head 2
+0.00050766574
+Now Printing ... : Attention 2  / head 3
+0.007822778
+Now Printing ... : Attention 2  / head 4
+0.00048221022
+Now Printing ... : Attention 2  / head 5
+0.00038273796
+Now Printing ... : Attention 2  / head 6
+0.012497357
+Now Printing ... : Attention 2  / head 7
+0.0003935604
+Now Printing ... : Attention 2  / head 8
+0.00050265243
+Now Printing ... : Attention 2  / head 9
+0.00054827915
+Now Printing ... : Attention 2  / head 10
+0.000707762
+Now Printing ... : Attention 2  / head 11
+0.00037617335
+Now Printing ... : Attention 2  / head 12
+0.0006310205
+Now Printing ... : Attention 3
+Now Printing ... : Attention 3  / head 1
+0.00038578798
+Now Printing ... : Attention 3  / head 2
+0.001037986
+Now Printing ... : Attention 3  / head 3
+0.0008901655
+Now Printing ... : Attention 3  / head 4
+0.0005338657
+Now Printing ... : Attention 3  / head 5
+0.00063836057
+Now Printing ... : Attention 3  / head 6
+0.0005225992
+Now Printing ... : Attention 3  / head 7
+0.0005118316
+Now Printing ... : Attention 3  / head 8
+0.0010317698
+Now Printing ... : Attention 3  / head 9
+0.0007708444
+Now Printing ... : Attention 3  / head 10
+0.0015389584
+Now Printing ... : Attention 3  / head 11
+0.00066591834
+Now Printing ... : Attention 3  / head 12
+0.000350754
+Now Printing ... : Attention 4
+Now Printing ... : Attention 4  / head 1
+0.00037225295
+Now Printing ... : Attention 4  / head 2
+0.00084521185
+Now Printing ... : Attention 4  / head 3
+0.0007682774
+Now Printing ... : Attention 4  / head 4
+0.0021376456
+Now Printing ... : Attention 4  / head 5
+0.0029542607
+Now Printing ... : Attention 4  / head 6
+0.0005642013
+Now Printing ... : Attention 4  / head 7
+0.000484278
+Now Printing ... : Attention 4  / head 8
+0.0008852382
+Now Printing ... : Attention 4  / head 9
+0.00037153598
+Now Printing ... : Attention 4  / head 10
+0.0003390683
+Now Printing ... : Attention 4  / head 11
+0.00049612543
+Now Printing ... : Attention 4  / head 12
+0.0005163286
+Now Printing ... : Attention 5
+Now Printing ... : Attention 5  / head 1
+0.00030058823
+Now Printing ... : Attention 5  / head 2
+0.00038575928
+Now Printing ... : Attention 5  / head 3
+0.00049300806
+Now Printing ... : Attention 5  / head 4
+0.00056360575
+Now Printing ... : Attention 5  / head 5
+0.0012135357
+Now Printing ... : Attention 5  / head 6
+0.00046470802
+Now Printing ... : Attention 5  / head 7
+0.00048368078
+Now Printing ... : Attention 5  / head 8
+0.0006456512
+Now Printing ... : Attention 5  / head 9
+0.00039519905
+Now Printing ... : Attention 5  / head 10
+0.00053357484
+Now Printing ... : Attention 5  / head 11
+0.0071774386
+Now Printing ... : Attention 5  / head 12
+0.0013376821
+Now Printing ... : Attention 6
+Now Printing ... : Attention 6  / head 1
+0.000889554
+Now Printing ... : Attention 6  / head 2
+0.00076872186
+Now Printing ... : Attention 6  / head 3
+0.0012748854
+Now Printing ... : Attention 6  / head 4
+0.0016711538
+Now Printing ... : Attention 6  / head 5
+0.0004268576
+Now Printing ... : Attention 6  / head 6
+0.0044489102
+Now Printing ... : Attention 6  / head 7
+0.0017057538
+Now Printing ... : Attention 6  / head 8
+0.00062536256
+Now Printing ... : Attention 6  / head 9
+0.0005793195
+Now Printing ... : Attention 6  / head 10
+0.0066802567
+Now Printing ... : Attention 6  / head 11
+0.0002630765
+Now Printing ... : Attention 6  / head 12
+0.0006239963
+Now Printing ... : Attention 7
+Now Printing ... : Attention 7  / head 1
+0.0005797783
+Now Printing ... : Attention 7  / head 2
+0.001200077
+Now Printing ... : Attention 7  / head 3
+0.0030812984
+Now Printing ... : Attention 7  / head 4
+0.0012746868
+Now Printing ... : Attention 7  / head 5
+0.00093045627
+Now Printing ... : Attention 7  / head 6
+0.020009426
+Now Printing ... : Attention 7  / head 7
+0.00085204607
+Now Printing ... : Attention 7  / head 8
+0.0013259944
+Now Printing ... : Attention 7  / head 9
+0.0013264983
+Now Printing ... : Attention 7  / head 10
+0.0015395997
+Now Printing ... : Attention 7  / head 11
+0.0014607301
+Now Printing ... : Attention 7  / head 12
+0.00069472915
+Now Printing ... : Attention 8
+Now Printing ... : Attention 8  / head 1
+0.001330905
+Now Printing ... : Attention 8  / head 2
+0.007648098
+Now Printing ... : Attention 8  / head 3
+0.0044309637
+Now Printing ... : Attention 8  / head 4
+0.019832289
+Now Printing ... : Attention 8  / head 5
+0.0033975868
+Now Printing ... : Attention 8  / head 6
+0.020003451
+Now Printing ... : Attention 8  / head 7
+0.02020918
+Now Printing ... : Attention 8  / head 8
+0.00093333784
+Now Printing ... : Attention 8  / head 9
+0.007048748
+Now Printing ... : Attention 8  / head 10
+0.0021939145
+Now Printing ... : Attention 8  / head 11
+0.008046151
+Now Printing ... : Attention 8  / head 12
+0.0010269922
+Now Printing ... : Attention 9
+Now Printing ... : Attention 9  / head 1
+0.008137104
+Now Printing ... : Attention 9  / head 2
+0.0030411712
+Now Printing ... : Attention 9  / head 3
+0.0056035444
+Now Printing ... : Attention 9  / head 4
+0.004973319
+Now Printing ... : Attention 9  / head 5
+0.019796625
+Now Printing ... : Attention 9  / head 6
+0.0022138155
+Now Printing ... : Attention 9  / head 7
+0.012853
+Now Printing ... : Attention 9  / head 8
+0.0063973544
+Now Printing ... : Attention 9  / head 9
+0.0067453906
+Now Printing ... : Attention 9  / head 10
+0.00629764
+Now Printing ... : Attention 9  / head 11
+0.005807262
+Now Printing ... : Attention 9  / head 12
+0.011188916
+Now Printing ... : Attention 10
+Now Printing ... : Attention 10  / head 1
+0.0057788235
+Now Printing ... : Attention 10  / head 2
+0.0025392955
+Now Printing ... : Attention 10  / head 3
+0.0019668113
+Now Printing ... : Attention 10  / head 4
+0.0027858505
+Now Printing ... : Attention 10  / head 5
+0.004337475
+Now Printing ... : Attention 10  / head 6
+0.0024546837
+Now Printing ... : Attention 10  / head 7
+0.002962797
+Now Printing ... : Attention 10  / head 8
+0.0030044462
+Now Printing ... : Attention 10  / head 9
+0.0074517736
+Now Printing ... : Attention 10  / head 10
+0.010947988
+Now Printing ... : Attention 10  / head 11
+0.002984255
+Now Printing ... : Attention 10  / head 12
+0.0044447226
+Now Printing ... : Attention 11
+Now Printing ... : Attention 11  / head 1
+0.0023512798
+Now Printing ... : Attention 11  / head 2
+0.0043229847
+Now Printing ... : Attention 11  / head 3
+0.0031982972
+Now Printing ... : Attention 11  / head 4
+0.0034884026
+Now Printing ... : Attention 11  / head 5
+0.00393811
+Now Printing ... : Attention 11  / head 6
+0.002239777
+Now Printing ... : Attention 11  / head 7
+0.0052035563
+Now Printing ... : Attention 11  / head 8
+0.00699092
+Now Printing ... : Attention 11  / head 9
+0.004859611
+Now Printing ... : Attention 11  / head 10
+0.008701923
+Now Printing ... : Attention 11  / head 11
+0.0048720804
+Now Printing ... : Attention 11  / head 12
+0.003410013
+Now Printing ... : Attention 12
+Now Printing ... : Attention 12  / head 1
+0.0074812016
+Now Printing ... : Attention 12  / head 2
+0.006783672
+Now Printing ... : Attention 12  / head 3
+0.005881958
+Now Printing ... : Attention 12  / head 4
+0.0059376187
+Now Printing ... : Attention 12  / head 5
+0.0057678083
+Now Printing ... : Attention 12  / head 6
+0.0056373775
+Now Printing ... : Attention 12  / head 7
+0.006899579
+Now Printing ... : Attention 12  / head 8
+0.005040985
+Now Printing ... : Attention 12  / head 9
+0.0048414157
+Now Printing ... : Attention 12  / head 10
+0.006812146
+Now Printing ... : Attention 12  / head 11
+0.0053805867
+Now Printing ... : Attention 12  / head 12
+0.004306973
+------------------------
+私は弟が所属している吹奏楽部の演奏を聴きに行った。
+
+Now Printing ... : Attention 1
+Now Printing ... : Attention 1  / head 1
+0.002282937
+Now Printing ... : Attention 1  / head 2
+0.003453589
+Now Printing ... : Attention 1  / head 3
+0.0092882225
+Now Printing ... : Attention 1  / head 4
+0.004291507
+Now Printing ... : Attention 1  / head 5
+0.0012516275
+Now Printing ... : Attention 1  / head 6
+0.0032534038
+Now Printing ... : Attention 1  / head 7
+0.000929486
+Now Printing ... : Attention 1  / head 8
+0.0021929955
+Now Printing ... : Attention 1  / head 9
+0.009220816
+Now Printing ... : Attention 1  / head 10
+0.0044473466
+Now Printing ... : Attention 1  / head 11
+0.0013125932
+Now Printing ... : Attention 1  / head 12
+0.00400851
+Now Printing ... : Attention 2
+Now Printing ... : Attention 2  / head 1
+0.0026185345
+Now Printing ... : Attention 2  / head 2
+0.0019093043
+Now Printing ... : Attention 2  / head 3
+0.013313464
+Now Printing ... : Attention 2  / head 4
+0.0026144888
+Now Printing ... : Attention 2  / head 5
+0.0013168667
+Now Printing ... : Attention 2  / head 6
+0.022424646
+Now Printing ... : Attention 2  / head 7
+0.0027229523
+Now Printing ... : Attention 2  / head 8
+0.002400554
+Now Printing ... : Attention 2  / head 9
+0.0032328544
+Now Printing ... : Attention 2  / head 10
+0.0029574896
+Now Printing ... : Attention 2  / head 11
+0.0012149971
+Now Printing ... : Attention 2  / head 12
+0.0037212216
+Now Printing ... : Attention 3
+Now Printing ... : Attention 3  / head 1
+0.0019698672
+Now Printing ... : Attention 3  / head 2
+0.004060817
+Now Printing ... : Attention 3  / head 3
+0.0023343647
+Now Printing ... : Attention 3  / head 4
+0.0031976623
+Now Printing ... : Attention 3  / head 5
+0.003738583
+Now Printing ... : Attention 3  / head 6
+0.0024634374
+Now Printing ... : Attention 3  / head 7
+0.0030378187
+Now Printing ... : Attention 3  / head 8
+0.0025654873
+Now Printing ... : Attention 3  / head 9
+0.0021937673
+Now Printing ... : Attention 3  / head 10
+0.0019195143
+Now Printing ... : Attention 3  / head 11
+0.002237019
+Now Printing ... : Attention 3  / head 12
+0.0014281562
+Now Printing ... : Attention 4
+Now Printing ... : Attention 4  / head 1
+0.0023020806
+Now Printing ... : Attention 4  / head 2
+0.0028422016
+Now Printing ... : Attention 4  / head 3
+0.0031986693
+Now Printing ... : Attention 4  / head 4
+0.0049333987
+Now Printing ... : Attention 4  / head 5
+0.0055177044
+Now Printing ... : Attention 4  / head 6
+0.001480619
+Now Printing ... : Attention 4  / head 7
+0.0028279356
+Now Printing ... : Attention 4  / head 8
+0.0029439873
+Now Printing ... : Attention 4  / head 9
+0.0023561113
+Now Printing ... : Attention 4  / head 10
+0.0013888658
+Now Printing ... : Attention 4  / head 11
+0.0016861331
+Now Printing ... : Attention 4  / head 12
+0.0019153649
+Now Printing ... : Attention 5
+Now Printing ... : Attention 5  / head 1
+0.0014245157
+Now Printing ... : Attention 5  / head 2
+0.0015601885
+Now Printing ... : Attention 5  / head 3
+0.001972037
+Now Printing ... : Attention 5  / head 4
+0.002637755
+Now Printing ... : Attention 5  / head 5
+0.0033223
+Now Printing ... : Attention 5  / head 6
+0.0023045654
+Now Printing ... : Attention 5  / head 7
+0.0025678014
+Now Printing ... : Attention 5  / head 8
+0.002267199
+Now Printing ... : Attention 5  / head 9
+0.0024697706
+Now Printing ... : Attention 5  / head 10
+0.0015231168
+Now Printing ... : Attention 5  / head 11
+0.014700443
+Now Printing ... : Attention 5  / head 12
+0.003117218
+Now Printing ... : Attention 6
+Now Printing ... : Attention 6  / head 1
+0.0033427894
+Now Printing ... : Attention 6  / head 2
+0.0034166407
+Now Printing ... : Attention 6  / head 3
+0.0044583203
+Now Printing ... : Attention 6  / head 4
+0.00447394
+Now Printing ... : Attention 6  / head 5
+0.0017513658
+Now Printing ... : Attention 6  / head 6
+0.009670828
+Now Printing ... : Attention 6  / head 7
+0.0051406086
+Now Printing ... : Attention 6  / head 8
+0.0022140061
+Now Printing ... : Attention 6  / head 9
+0.0031573933
+Now Printing ... : Attention 6  / head 10
+0.01404881
+Now Printing ... : Attention 6  / head 11
+0.0013410825
+Now Printing ... : Attention 6  / head 12
+0.0020664674
+Now Printing ... : Attention 7
+Now Printing ... : Attention 7  / head 1
+0.0027094854
+Now Printing ... : Attention 7  / head 2
+0.0032609326
+Now Printing ... : Attention 7  / head 3
+0.0064739273
+Now Printing ... : Attention 7  / head 4
+0.004760231
+Now Printing ... : Attention 7  / head 5
+0.0050289487
+Now Printing ... : Attention 7  / head 6
+0.04346795
+Now Printing ... : Attention 7  / head 7
+0.004172951
+Now Printing ... : Attention 7  / head 8
+0.0040879375
+Now Printing ... : Attention 7  / head 9
+0.0033252572
+Now Printing ... : Attention 7  / head 10
+0.0035302024
+Now Printing ... : Attention 7  / head 11
+0.0050698076
+Now Printing ... : Attention 7  / head 12
+0.0033006289
+Now Printing ... : Attention 8
+Now Printing ... : Attention 8  / head 1
+0.006593539
+Now Printing ... : Attention 8  / head 2
+0.018647503
+Now Printing ... : Attention 8  / head 3
+0.011204018
+Now Printing ... : Attention 8  / head 4
+0.045372065
+Now Printing ... : Attention 8  / head 5
+0.008832279
+Now Printing ... : Attention 8  / head 6
+0.04416033
+Now Printing ... : Attention 8  / head 7
+0.044588324
+Now Printing ... : Attention 8  / head 8
+0.0041671437
+Now Printing ... : Attention 8  / head 9
+0.015899817
+Now Printing ... : Attention 8  / head 10
+0.0060468973
+Now Printing ... : Attention 8  / head 11
+0.016878674
+Now Printing ... : Attention 8  / head 12
+0.0043908306
+Now Printing ... : Attention 9
+Now Printing ... : Attention 9  / head 1
+0.016294122
+Now Printing ... : Attention 9  / head 2
+0.00969328
+Now Printing ... : Attention 9  / head 3
+0.014758608
+Now Printing ... : Attention 9  / head 4
+0.010779128
+Now Printing ... : Attention 9  / head 5
+0.043510627
+Now Printing ... : Attention 9  / head 6
+0.008660072
+Now Printing ... : Attention 9  / head 7
+0.026058914
+Now Printing ... : Attention 9  / head 8
+0.013116169
+Now Printing ... : Attention 9  / head 9
+0.019021953
+Now Printing ... : Attention 9  / head 10
+0.013102004
+Now Printing ... : Attention 9  / head 11
+0.013825307
+Now Printing ... : Attention 9  / head 12
+0.01871414
+Now Printing ... : Attention 10
+Now Printing ... : Attention 10  / head 1
+0.013796792
+Now Printing ... : Attention 10  / head 2
+0.0075622555
+Now Printing ... : Attention 10  / head 3
+0.007714628
+Now Printing ... : Attention 10  / head 4
+0.010893123
+Now Printing ... : Attention 10  / head 5
+0.010898679
+Now Printing ... : Attention 10  / head 6
+0.0053192093
+Now Printing ... : Attention 10  / head 7
+0.009712244
+Now Printing ... : Attention 10  / head 8
+0.008397575
+Now Printing ... : Attention 10  / head 9
+0.011627674
+Now Printing ... : Attention 10  / head 10
+0.023327617
+Now Printing ... : Attention 10  / head 11
+0.007982177
+Now Printing ... : Attention 10  / head 12
+0.010921907
+Now Printing ... : Attention 11
+Now Printing ... : Attention 11  / head 1
+0.008272263
+Now Printing ... : Attention 11  / head 2
+0.008198648
+Now Printing ... : Attention 11  / head 3
+0.006156029
+Now Printing ... : Attention 11  / head 4
+0.010449269
+Now Printing ... : Attention 11  / head 5
+0.010463004
+Now Printing ... : Attention 11  / head 6
+0.007930061
+Now Printing ... : Attention 11  / head 7
+0.011162627
+Now Printing ... : Attention 11  / head 8
+0.01690116
+Now Printing ... : Attention 11  / head 9
+0.013424534
+Now Printing ... : Attention 11  / head 10
+0.015126238
+Now Printing ... : Attention 11  / head 11
+0.00983904
+Now Printing ... : Attention 11  / head 12
+0.007990125
+Now Printing ... : Attention 12
+Now Printing ... : Attention 12  / head 1
+0.021584291
+Now Printing ... : Attention 12  / head 2
+0.01859193
+Now Printing ... : Attention 12  / head 3
+0.011704972
+Now Printing ... : Attention 12  / head 4
+0.012611151
+Now Printing ... : Attention 12  / head 5
+0.012475495
+Now Printing ... : Attention 12  / head 6
+0.011358496
+Now Printing ... : Attention 12  / head 7
+0.014894099
+Now Printing ... : Attention 12  / head 8
+0.014377037
+Now Printing ... : Attention 12  / head 9
+0.012127528
+Now Printing ... : Attention 12  / head 10
+0.014611045
+Now Printing ... : Attention 12  / head 11
+0.011061904
+Now Printing ... : Attention 12  / head 12
+0.010137506
+------------------------
+若者言葉は言語の問題というより、若者と高齢者でジョークの機能が違うのを感じていて、高齢者はジョークから入って打ち解けてから本題に入る「礼儀作法」のために顔文字やセクハラや駄洒落を使う。
+Now Printing ... : Attention 1
+Now Printing ... : Attention 1  / head 1
+0.0007431388
+Now Printing ... : Attention 1  / head 2
+0.00034532804
+Now Printing ... : Attention 1  / head 3
+0.0011712476
+Now Printing ... : Attention 1  / head 4
+0.00027539345
+Now Printing ... : Attention 1  / head 5
+0.00013478305
+Now Printing ... : Attention 1  / head 6
+0.0001510426
+Now Printing ... : Attention 1  / head 7
+0.000138883
+Now Printing ... : Attention 1  / head 8
+0.00023262293
+Now Printing ... : Attention 1  / head 9
+0.0037890477
+Now Printing ... : Attention 1  / head 10
+0.00045308573
+Now Printing ... : Attention 1  / head 11
+0.00016053946
+Now Printing ... : Attention 1  / head 12
+0.00077184034
+Now Printing ... : Attention 2
+Now Printing ... : Attention 2  / head 1
+0.00043123038
+Now Printing ... : Attention 2  / head 2
+0.0003099164
+Now Printing ... : Attention 2  / head 3
+0.006114694
+Now Printing ... : Attention 2  / head 4
+0.0002960686
+Now Printing ... : Attention 2  / head 5
+0.00022687096
+Now Printing ... : Attention 2  / head 6
+0.008926751
+Now Printing ... : Attention 2  / head 7
+0.00025851643
+Now Printing ... : Attention 2  / head 8
+0.00024649696
+Now Printing ... : Attention 2  / head 9
+0.0002658904
+Now Printing ... : Attention 2  / head 10
+0.00034396615
+Now Printing ... : Attention 2  / head 11
+0.00020465886
+Now Printing ... : Attention 2  / head 12
+0.0002906389
+Now Printing ... : Attention 3
+Now Printing ... : Attention 3  / head 1
+0.0002906305
+Now Printing ... : Attention 3  / head 2
+0.00074506237
+Now Printing ... : Attention 3  / head 3
+0.0004614229
+Now Printing ... : Attention 3  / head 4
+0.00033058008
+Now Printing ... : Attention 3  / head 5
+0.00051762577
+Now Printing ... : Attention 3  / head 6
+0.0003096682
+Now Printing ... : Attention 3  / head 7
+0.0003640923
+Now Printing ... : Attention 3  / head 8
+0.00083451386
+Now Printing ... : Attention 3  / head 9
+0.0004309866
+Now Printing ... : Attention 3  / head 10
+0.00096012856
+Now Printing ... : Attention 3  / head 11
+0.00046893905
+Now Printing ... : Attention 3  / head 12
+0.00022274062
+Now Printing ... : Attention 4
+Now Printing ... : Attention 4  / head 1
+0.00027054682
+Now Printing ... : Attention 4  / head 2
+0.00063500204
+Now Printing ... : Attention 4  / head 3
+0.0005628038
+Now Printing ... : Attention 4  / head 4
+0.0014886772
+Now Printing ... : Attention 4  / head 5
+0.0025503235
+Now Printing ... : Attention 4  / head 6
+0.00031741685
+Now Printing ... : Attention 4  / head 7
+0.00033421436
+Now Printing ... : Attention 4  / head 8
+0.00059096224
+Now Printing ... : Attention 4  / head 9
+0.00018640397
+Now Printing ... : Attention 4  / head 10
+0.00022472667
+Now Printing ... : Attention 4  / head 11
+0.00039697913
+Now Printing ... : Attention 4  / head 12
+0.00027990414
+Now Printing ... : Attention 5
+Now Printing ... : Attention 5  / head 1
+0.00018691257
+Now Printing ... : Attention 5  / head 2
+0.00019669929
+Now Printing ... : Attention 5  / head 3
+0.00031683288
+Now Printing ... : Attention 5  / head 4
+0.00031938724
+Now Printing ... : Attention 5  / head 5
+0.0008688594
+Now Printing ... : Attention 5  / head 6
+0.0003749455
+Now Printing ... : Attention 5  / head 7
+0.00020636313
+Now Printing ... : Attention 5  / head 8
+0.00044163121
+Now Printing ... : Attention 5  / head 9
+0.00065672176
+Now Printing ... : Attention 5  / head 10
+0.00036155118
+Now Printing ... : Attention 5  / head 11
+0.0056831045
+Now Printing ... : Attention 5  / head 12
+0.0021038675
+Now Printing ... : Attention 6
+Now Printing ... : Attention 6  / head 1
+0.00097265927
+Now Printing ... : Attention 6  / head 2
+0.00042545586
+Now Printing ... : Attention 6  / head 3
+0.00083384244
+Now Printing ... : Attention 6  / head 4
+0.0017168181
+Now Printing ... : Attention 6  / head 5
+0.00025032632
+Now Printing ... : Attention 6  / head 6
+0.003606845
+Now Printing ... : Attention 6  / head 7
+0.0017884462
+Now Printing ... : Attention 6  / head 8
+0.0004064432
+Now Printing ... : Attention 6  / head 9
+0.00030758328
+Now Printing ... : Attention 6  / head 10
+0.005944222
+Now Printing ... : Attention 6  / head 11
+0.0002444294
+Now Printing ... : Attention 6  / head 12
+0.00038345795
+Now Printing ... : Attention 7
+Now Printing ... : Attention 7  / head 1
+0.00040700127
+Now Printing ... : Attention 7  / head 2
+0.0011280479
+Now Printing ... : Attention 7  / head 3
+0.002934596
+Now Printing ... : Attention 7  / head 4
+0.0005512354
+Now Printing ... : Attention 7  / head 5
+0.000555417
+Now Printing ... : Attention 7  / head 6
+0.015183214
+Now Printing ... : Attention 7  / head 7
+0.0004225701
+Now Printing ... : Attention 7  / head 8
+0.0011726969
+Now Printing ... : Attention 7  / head 9
+0.0008109586
+Now Printing ... : Attention 7  / head 10
+0.001521573
+Now Printing ... : Attention 7  / head 11
+0.0010304743
+Now Printing ... : Attention 7  / head 12
+0.00035032033
+Now Printing ... : Attention 8
+Now Printing ... : Attention 8  / head 1
+0.0008184025
+Now Printing ... : Attention 8  / head 2
+0.0056471685
+Now Printing ... : Attention 8  / head 3
+0.0042281877
+Now Printing ... : Attention 8  / head 4
+0.014869892
+Now Printing ... : Attention 8  / head 5
+0.0031592022
+Now Printing ... : Attention 8  / head 6
+0.015231625
+Now Printing ... : Attention 8  / head 7
+0.015447369
+Now Printing ... : Attention 8  / head 8
+0.0007389755
+Now Printing ... : Attention 8  / head 9
+0.005187766
+Now Printing ... : Attention 8  / head 10
+0.0017870651
+Now Printing ... : Attention 8  / head 11
+0.006535868
+Now Printing ... : Attention 8  / head 12
+0.000898231
+Now Printing ... : Attention 9
+Now Printing ... : Attention 9  / head 1
+0.005749883
+Now Printing ... : Attention 9  / head 2
+0.0024192668
+Now Printing ... : Attention 9  / head 3
+0.0044789584
+Now Printing ... : Attention 9  / head 4
+0.0045165503
+Now Printing ... : Attention 9  / head 5
+0.01476771
+Now Printing ... : Attention 9  / head 6
+0.0013429397
+Now Printing ... : Attention 9  / head 7
+0.010617075
+Now Printing ... : Attention 9  / head 8
+0.004593012
+Now Printing ... : Attention 9  / head 9
+0.0049938615
+Now Printing ... : Attention 9  / head 10
+0.0050397897
+Now Printing ... : Attention 9  / head 11
+0.0046738107
+Now Printing ... : Attention 9  / head 12
+0.007875194
+Now Printing ... : Attention 10
+Now Printing ... : Attention 10  / head 1
+0.0044434885
+Now Printing ... : Attention 10  / head 2
+0.0023363584
+Now Printing ... : Attention 10  / head 3
+0.0019812149
+Now Printing ... : Attention 10  / head 4
+0.0014916114
+Now Printing ... : Attention 10  / head 5
+0.0035857991
+Now Printing ... : Attention 10  / head 6
+0.0019684313
+Now Printing ... : Attention 10  / head 7
+0.0019043752
+Now Printing ... : Attention 10  / head 8
+0.0018426845
+Now Printing ... : Attention 10  / head 9
+0.004941303
+Now Printing ... : Attention 10  / head 10
+0.008173287
+Now Printing ... : Attention 10  / head 11
+0.0020972528
+Now Printing ... : Attention 10  / head 12
+0.0034282666
+Now Printing ... : Attention 11
+Now Printing ... : Attention 11  / head 1
+0.0013915192
+Now Printing ... : Attention 11  / head 2
+0.0030761568
+Now Printing ... : Attention 11  / head 3
+0.001724116
+Now Printing ... : Attention 11  / head 4
+0.0024274776
+Now Printing ... : Attention 11  / head 5
+0.0031134514
+Now Printing ... : Attention 11  / head 6
+0.0015791397
+Now Printing ... : Attention 11  / head 7
+0.0028439679
+Now Printing ... : Attention 11  / head 8
+0.0044609844
+Now Printing ... : Attention 11  / head 9
+0.0031996334
+Now Printing ... : Attention 11  / head 10
+0.0063435435
+Now Printing ... : Attention 11  / head 11
+0.0038861092
+Now Printing ... : Attention 11  / head 12
+0.002840828
+Now Printing ... : Attention 12
+Now Printing ... : Attention 12  / head 1
+0.005611243
+Now Printing ... : Attention 12  / head 2
+0.0049728877
+Now Printing ... : Attention 12  / head 3
+0.0034527695
+Now Printing ... : Attention 12  / head 4
+0.0044065146
+Now Printing ... : Attention 12  / head 5
+0.0043108463
+Now Printing ... : Attention 12  / head 6
+0.0030397188
+Now Printing ... : Attention 12  / head 7
+0.004843613
+Now Printing ... : Attention 12  / head 8
+0.0039350768
+Now Printing ... : Attention 12  / head 9
+0.0028936262
+Now Printing ... : Attention 12  / head 10
+0.0048433314
+Now Printing ... : Attention 12  / head 11
+0.0035152766
+Now Printing ... : Attention 12  / head 12
+0.003877124
+Some weights of the model checkpoint at cl-tohoku/bert-base-japanese were not used when initializing BertModel: ['cls.predictions.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.decoder.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Now Loading ... : cl-tohoku/bert-base-japanese
+------------------------
+暑中休暇を利用して海水浴に行った友達からぜひ来いという端書はがきを受け取ったので、私は多少の金を工面して、出掛ける事にした。
+
+Now Printing ... : Attention 1
+Now Printing ... : Attention 1  / head 1
+0.0008012375
+Now Printing ... : Attention 1  / head 2
+0.0006187396
+Now Printing ... : Attention 1  / head 3
+0.0016952041
+Now Printing ... : Attention 1  / head 4
+0.00046554083
+Now Printing ... : Attention 1  / head 5
+0.00023036763
+Now Printing ... : Attention 1  / head 6
+0.00027594058
+Now Printing ... : Attention 1  / head 7
+0.0001692739
+Now Printing ... : Attention 1  / head 8
+0.00035095608
+Now Printing ... : Attention 1  / head 9
+0.004078883
+Now Printing ... : Attention 1  / head 10
+0.0006622346
+Now Printing ... : Attention 1  / head 11
+0.00023841216
+Now Printing ... : Attention 1  / head 12
+0.00078218227
+Now Printing ... : Attention 2
+Now Printing ... : Attention 2  / head 1
+0.00070353807
+Now Printing ... : Attention 2  / head 2
+0.00050766574
+Now Printing ... : Attention 2  / head 3
+0.007822778
+Now Printing ... : Attention 2  / head 4
+0.00048221022
+Now Printing ... : Attention 2  / head 5
+0.00038273796
+Now Printing ... : Attention 2  / head 6
+0.012497357
+Now Printing ... : Attention 2  / head 7
+0.0003935604
+Now Printing ... : Attention 2  / head 8
+0.00050265243
+Now Printing ... : Attention 2  / head 9
+0.00054827915
+Now Printing ... : Attention 2  / head 10
+0.000707762
+Now Printing ... : Attention 2  / head 11
+0.00037617335
+Now Printing ... : Attention 2  / head 12
+0.0006310205
+Now Printing ... : Attention 3
+Now Printing ... : Attention 3  / head 1
+0.00038578798
+Now Printing ... : Attention 3  / head 2
+0.001037986
+Now Printing ... : Attention 3  / head 3
+0.0008901655
+Now Printing ... : Attention 3  / head 4
+0.0005338657
+Now Printing ... : Attention 3  / head 5
+0.00063836057
+Now Printing ... : Attention 3  / head 6
+0.0005225992
+Now Printing ... : Attention 3  / head 7
+0.0005118316
+Now Printing ... : Attention 3  / head 8
+0.0010317698
+Now Printing ... : Attention 3  / head 9
+0.0007708444
+Now Printing ... : Attention 3  / head 10
+0.0015389584
+Now Printing ... : Attention 3  / head 11
+0.00066591834
+Now Printing ... : Attention 3  / head 12
+0.000350754
+Now Printing ... : Attention 4
+Now Printing ... : Attention 4  / head 1
+0.00037225295
+Now Printing ... : Attention 4  / head 2
+0.00084521185
+Now Printing ... : Attention 4  / head 3
+0.0007682774
+Now Printing ... : Attention 4  / head 4
+0.0021376456
+Now Printing ... : Attention 4  / head 5
+0.0029542607
+Now Printing ... : Attention 4  / head 6
+0.0005642013
+Now Printing ... : Attention 4  / head 7
+0.000484278
+Now Printing ... : Attention 4  / head 8
+0.0008852382
+Now Printing ... : Attention 4  / head 9
+0.00037153598
+Now Printing ... : Attention 4  / head 10
+0.0003390683
+Now Printing ... : Attention 4  / head 11
+0.00049612543
+Now Printing ... : Attention 4  / head 12
+0.0005163286
+Now Printing ... : Attention 5
+Now Printing ... : Attention 5  / head 1
+0.00030058823
+Now Printing ... : Attention 5  / head 2
+0.00038575928
+Now Printing ... : Attention 5  / head 3
+0.00049300806
+Now Printing ... : Attention 5  / head 4
+0.00056360575
+Now Printing ... : Attention 5  / head 5
+0.0012135357
+Now Printing ... : Attention 5  / head 6
+0.00046470802
+Now Printing ... : Attention 5  / head 7
+0.00048368078
+Now Printing ... : Attention 5  / head 8
+0.0006456512
+Now Printing ... : Attention 5  / head 9
+0.00039519905
+Now Printing ... : Attention 5  / head 10
+0.00053357484
+Now Printing ... : Attention 5  / head 11
+0.0071774386
+Now Printing ... : Attention 5  / head 12
+0.0013376821
+Now Printing ... : Attention 6
+Now Printing ... : Attention 6  / head 1
+0.000889554
+Now Printing ... : Attention 6  / head 2
+0.00076872186
+Now Printing ... : Attention 6  / head 3
+0.0012748854
+Now Printing ... : Attention 6  / head 4
+0.0016711538
+Now Printing ... : Attention 6  / head 5
+0.0004268576
+Now Printing ... : Attention 6  / head 6
+0.0044489102
+Now Printing ... : Attention 6  / head 7
+0.0017057538
+Now Printing ... : Attention 6  / head 8
+0.00062536256
+Now Printing ... : Attention 6  / head 9
+0.0005793195
+Now Printing ... : Attention 6  / head 10
+0.0066802567
+Now Printing ... : Attention 6  / head 11
+0.0002630765
+Now Printing ... : Attention 6  / head 12
+0.0006239963
+Now Printing ... : Attention 7
+Now Printing ... : Attention 7  / head 1
+0.0005797783
+Now Printing ... : Attention 7  / head 2
+0.001200077
+Now Printing ... : Attention 7  / head 3
+0.0030812984
+Now Printing ... : Attention 7  / head 4
+0.0012746868
+Now Printing ... : Attention 7  / head 5
+0.00093045627
+Now Printing ... : Attention 7  / head 6
+0.020009426
+Now Printing ... : Attention 7  / head 7
+0.00085204607
+Now Printing ... : Attention 7  / head 8
+0.0013259944
+Now Printing ... : Attention 7  / head 9
+0.0013264983
+Now Printing ... : Attention 7  / head 10
+0.0015395997
+Now Printing ... : Attention 7  / head 11
+0.0014607301
+Now Printing ... : Attention 7  / head 12
+0.00069472915
+Now Printing ... : Attention 8
+Now Printing ... : Attention 8  / head 1
+0.001330905
+Now Printing ... : Attention 8  / head 2
+0.007648098
+Now Printing ... : Attention 8  / head 3
+0.0044309637
+Now Printing ... : Attention 8  / head 4
+0.019832289
+Now Printing ... : Attention 8  / head 5
+0.0033975868
+Now Printing ... : Attention 8  / head 6
+0.020003451
+Now Printing ... : Attention 8  / head 7
+0.02020918
+Now Printing ... : Attention 8  / head 8
+0.00093333784
+Now Printing ... : Attention 8  / head 9
+0.007048748
+Now Printing ... : Attention 8  / head 10
+0.0021939145
+Now Printing ... : Attention 8  / head 11
+0.008046151
+Now Printing ... : Attention 8  / head 12
+0.0010269922
+Now Printing ... : Attention 9
+Now Printing ... : Attention 9  / head 1
+0.008137104
+Now Printing ... : Attention 9  / head 2
+0.0030411712
+Now Printing ... : Attention 9  / head 3
+0.0056035444
+Now Printing ... : Attention 9  / head 4
+0.004973319
+Now Printing ... : Attention 9  / head 5
+0.019796625
+Now Printing ... : Attention 9  / head 6
+0.0022138155
+Now Printing ... : Attention 9  / head 7
+0.012853
+Now Printing ... : Attention 9  / head 8
+0.0063973544
+Now Printing ... : Attention 9  / head 9
+0.0067453906
+Now Printing ... : Attention 9  / head 10
+0.00629764
+Now Printing ... : Attention 9  / head 11
+0.005807262
+Now Printing ... : Attention 9  / head 12
+0.011188916
+Now Printing ... : Attention 10
+Now Printing ... : Attention 10  / head 1
+0.0057788235
+Now Printing ... : Attention 10  / head 2
+0.0025392955
+Now Printing ... : Attention 10  / head 3
+0.0019668113
+Now Printing ... : Attention 10  / head 4
+0.0027858505
+Now Printing ... : Attention 10  / head 5
+0.004337475
+Now Printing ... : Attention 10  / head 6
+0.0024546837
+Now Printing ... : Attention 10  / head 7
+0.002962797
+Now Printing ... : Attention 10  / head 8
+0.0030044462
+Now Printing ... : Attention 10  / head 9
+0.0074517736
+Now Printing ... : Attention 10  / head 10
+0.010947988
+Now Printing ... : Attention 10  / head 11
+0.002984255
+Now Printing ... : Attention 10  / head 12
+0.0044447226
+Now Printing ... : Attention 11
+Now Printing ... : Attention 11  / head 1
+0.0023512798
+Now Printing ... : Attention 11  / head 2
+0.0043229847
+Now Printing ... : Attention 11  / head 3
+0.0031982972
+Now Printing ... : Attention 11  / head 4
+0.0034884026
+Now Printing ... : Attention 11  / head 5
+0.00393811
+Now Printing ... : Attention 11  / head 6
+0.002239777
+Now Printing ... : Attention 11  / head 7
+0.0052035563
+Now Printing ... : Attention 11  / head 8
+0.00699092
+Now Printing ... : Attention 11  / head 9
+0.004859611
+Now Printing ... : Attention 11  / head 10
+0.008701923
+Now Printing ... : Attention 11  / head 11
+0.0048720804
+Now Printing ... : Attention 11  / head 12
+0.003410013
+Now Printing ... : Attention 12
+Now Printing ... : Attention 12  / head 1
+0.0074812016
+Now Printing ... : Attention 12  / head 2
+0.006783672
+Now Printing ... : Attention 12  / head 3
+0.005881958
+Now Printing ... : Attention 12  / head 4
+0.0059376187
+Now Printing ... : Attention 12  / head 5
+0.0057678083
+Now Printing ... : Attention 12  / head 6
+0.0056373775
+Now Printing ... : Attention 12  / head 7
+0.006899579
+Now Printing ... : Attention 12  / head 8
+0.005040985
+Now Printing ... : Attention 12  / head 9
+0.0048414157
+Now Printing ... : Attention 12  / head 10
+0.006812146
+Now Printing ... : Attention 12  / head 11
+0.0053805867
+Now Printing ... : Attention 12  / head 12
+0.004306973
+------------------------
+私は弟が所属している吹奏楽部の演奏を聴きに行った。
+
+Now Printing ... : Attention 1
+Now Printing ... : Attention 1  / head 1
+0.002282937
+Now Printing ... : Attention 1  / head 2
+0.003453589
+Now Printing ... : Attention 1  / head 3
+0.0092882225
+Now Printing ... : Attention 1  / head 4
+0.004291507
+Now Printing ... : Attention 1  / head 5
+0.0012516275
+Now Printing ... : Attention 1  / head 6
+0.0032534038
+Now Printing ... : Attention 1  / head 7
+0.000929486
+Now Printing ... : Attention 1  / head 8
+0.0021929955
+Now Printing ... : Attention 1  / head 9
+0.009220816
+Now Printing ... : Attention 1  / head 10
+0.0044473466
+Now Printing ... : Attention 1  / head 11
+0.0013125932
+Now Printing ... : Attention 1  / head 12
+0.00400851
+Now Printing ... : Attention 2
+Now Printing ... : Attention 2  / head 1
+0.0026185345
+Now Printing ... : Attention 2  / head 2
+0.0019093043
+Now Printing ... : Attention 2  / head 3
+0.013313464
+Now Printing ... : Attention 2  / head 4
+0.0026144888
+Now Printing ... : Attention 2  / head 5
+0.0013168667
+Now Printing ... : Attention 2  / head 6
+0.022424646
+Now Printing ... : Attention 2  / head 7
+0.0027229523
+Now Printing ... : Attention 2  / head 8
+0.002400554
+Now Printing ... : Attention 2  / head 9
+0.0032328544
+Now Printing ... : Attention 2  / head 10
+0.0029574896
+Now Printing ... : Attention 2  / head 11
+0.0012149971
+Now Printing ... : Attention 2  / head 12
+0.0037212216
+Now Printing ... : Attention 3
+Now Printing ... : Attention 3  / head 1
+0.0019698672
+Now Printing ... : Attention 3  / head 2
+0.004060817
+Now Printing ... : Attention 3  / head 3
+0.0023343647
+Now Printing ... : Attention 3  / head 4
+0.0031976623
+Now Printing ... : Attention 3  / head 5
+0.003738583
+Now Printing ... : Attention 3  / head 6
+0.0024634374
+Now Printing ... : Attention 3  / head 7
+0.0030378187
+Now Printing ... : Attention 3  / head 8
+0.0025654873
+Now Printing ... : Attention 3  / head 9
+0.0021937673
+Now Printing ... : Attention 3  / head 10
+0.0019195143
+Now Printing ... : Attention 3  / head 11
+0.002237019
+Now Printing ... : Attention 3  / head 12
+0.0014281562
+Now Printing ... : Attention 4
+Now Printing ... : Attention 4  / head 1
+0.0023020806
+Now Printing ... : Attention 4  / head 2
+0.0028422016
+Now Printing ... : Attention 4  / head 3
+0.0031986693
+Now Printing ... : Attention 4  / head 4
+0.0049333987
+Now Printing ... : Attention 4  / head 5
+0.0055177044
+Now Printing ... : Attention 4  / head 6
+0.001480619
+Now Printing ... : Attention 4  / head 7
+0.0028279356
+Now Printing ... : Attention 4  / head 8
+0.0029439873
+Now Printing ... : Attention 4  / head 9
+0.0023561113
+Now Printing ... : Attention 4  / head 10
+0.0013888658
+Now Printing ... : Attention 4  / head 11
+0.0016861331
+Now Printing ... : Attention 4  / head 12
+0.0019153649
+Now Printing ... : Attention 5
+Now Printing ... : Attention 5  / head 1
+0.0014245157
+Now Printing ... : Attention 5  / head 2
+0.0015601885
+Now Printing ... : Attention 5  / head 3
+0.001972037
+Now Printing ... : Attention 5  / head 4
+0.002637755
+Now Printing ... : Attention 5  / head 5
+0.0033223
+Now Printing ... : Attention 5  / head 6
+0.0023045654
+Now Printing ... : Attention 5  / head 7
+0.0025678014
+Now Printing ... : Attention 5  / head 8
+0.002267199
+Now Printing ... : Attention 5  / head 9
+0.0024697706
+Now Printing ... : Attention 5  / head 10
+0.0015231168
+Now Printing ... : Attention 5  / head 11
+0.014700443
+Now Printing ... : Attention 5  / head 12
+0.003117218
+Now Printing ... : Attention 6
+Now Printing ... : Attention 6  / head 1
+0.0033427894
+Now Printing ... : Attention 6  / head 2
+0.0034166407
+Now Printing ... : Attention 6  / head 3
+0.0044583203
+Now Printing ... : Attention 6  / head 4
+0.00447394
+Now Printing ... : Attention 6  / head 5
+0.0017513658
+Now Printing ... : Attention 6  / head 6
+0.009670828
+Now Printing ... : Attention 6  / head 7
+0.0051406086
+Now Printing ... : Attention 6  / head 8
+0.0022140061
+Now Printing ... : Attention 6  / head 9
+0.0031573933
+Now Printing ... : Attention 6  / head 10
+0.01404881
+Now Printing ... : Attention 6  / head 11
+0.0013410825
+Now Printing ... : Attention 6  / head 12
+0.0020664674
+Now Printing ... : Attention 7
+Now Printing ... : Attention 7  / head 1
+0.0027094854
+Now Printing ... : Attention 7  / head 2
+0.0032609326
+Now Printing ... : Attention 7  / head 3
+0.0064739273
+Now Printing ... : Attention 7  / head 4
+0.004760231
+Now Printing ... : Attention 7  / head 5
+0.0050289487
+Now Printing ... : Attention 7  / head 6
+0.04346795
+Now Printing ... : Attention 7  / head 7
+0.004172951
+Now Printing ... : Attention 7  / head 8
+0.0040879375
+Now Printing ... : Attention 7  / head 9
+0.0033252572
+Now Printing ... : Attention 7  / head 10
+0.0035302024
+Now Printing ... : Attention 7  / head 11
+0.0050698076
+Now Printing ... : Attention 7  / head 12
+0.0033006289
+Now Printing ... : Attention 8
+Now Printing ... : Attention 8  / head 1
+0.006593539
+Now Printing ... : Attention 8  / head 2
+0.018647503
+Now Printing ... : Attention 8  / head 3
+0.011204018
+Now Printing ... : Attention 8  / head 4
+0.045372065
+Now Printing ... : Attention 8  / head 5
+0.008832279
+Now Printing ... : Attention 8  / head 6
+0.04416033
+Now Printing ... : Attention 8  / head 7
+0.044588324
+Now Printing ... : Attention 8  / head 8
+0.0041671437
+Now Printing ... : Attention 8  / head 9
+0.015899817
+Now Printing ... : Attention 8  / head 10
+0.0060468973
+Now Printing ... : Attention 8  / head 11
+0.016878674
+Now Printing ... : Attention 8  / head 12
+0.0043908306
+Now Printing ... : Attention 9
+Now Printing ... : Attention 9  / head 1
+0.016294122
+Now Printing ... : Attention 9  / head 2
+0.00969328
+Now Printing ... : Attention 9  / head 3
+0.014758608
+Now Printing ... : Attention 9  / head 4
+0.010779128
+Now Printing ... : Attention 9  / head 5
+0.043510627
+Now Printing ... : Attention 9  / head 6
+0.008660072
+Now Printing ... : Attention 9  / head 7
+0.026058914
+Now Printing ... : Attention 9  / head 8
+0.013116169
+Now Printing ... : Attention 9  / head 9
+0.019021953
+Now Printing ... : Attention 9  / head 10
+0.013102004
+Now Printing ... : Attention 9  / head 11
+0.013825307
+Now Printing ... : Attention 9  / head 12
+0.01871414
+Now Printing ... : Attention 10
+Now Printing ... : Attention 10  / head 1
+0.013796792
+Now Printing ... : Attention 10  / head 2
+0.0075622555
+Now Printing ... : Attention 10  / head 3
+0.007714628
+Now Printing ... : Attention 10  / head 4
+0.010893123
+Now Printing ... : Attention 10  / head 5
+0.010898679
+Now Printing ... : Attention 10  / head 6
+0.0053192093
+Now Printing ... : Attention 10  / head 7
+0.009712244
+Now Printing ... : Attention 10  / head 8
+0.008397575
+Now Printing ... : Attention 10  / head 9
+0.011627674
+Now Printing ... : Attention 10  / head 10
+0.023327617
+Now Printing ... : Attention 10  / head 11
+0.007982177
+Now Printing ... : Attention 10  / head 12
+0.010921907
+Now Printing ... : Attention 11
+Now Printing ... : Attention 11  / head 1
+0.008272263
+Now Printing ... : Attention 11  / head 2
+0.008198648
+Now Printing ... : Attention 11  / head 3
+0.006156029
+Now Printing ... : Attention 11  / head 4
+0.010449269
+Now Printing ... : Attention 11  / head 5
+0.010463004
+Now Printing ... : Attention 11  / head 6
+0.007930061
+Now Printing ... : Attention 11  / head 7
+0.011162627
+Now Printing ... : Attention 11  / head 8
+0.01690116
+Now Printing ... : Attention 11  / head 9
+0.013424534
+Now Printing ... : Attention 11  / head 10
+0.015126238
+Now Printing ... : Attention 11  / head 11
+0.00983904
+Now Printing ... : Attention 11  / head 12
+0.007990125
+Now Printing ... : Attention 12
+Now Printing ... : Attention 12  / head 1
+0.021584291
+Now Printing ... : Attention 12  / head 2
+0.01859193
+Now Printing ... : Attention 12  / head 3
+0.011704972
+Now Printing ... : Attention 12  / head 4
+0.012611151
+Now Printing ... : Attention 12  / head 5
+0.012475495
+Now Printing ... : Attention 12  / head 6
+0.011358496
+Now Printing ... : Attention 12  / head 7
+0.014894099
+Now Printing ... : Attention 12  / head 8
+0.014377037
+Now Printing ... : Attention 12  / head 9
+0.012127528
+Now Printing ... : Attention 12  / head 10
+0.014611045
+Now Printing ... : Attention 12  / head 11
+0.011061904
+Now Printing ... : Attention 12  / head 12
+0.010137506
+------------------------
+若者言葉は言語の問題というより、若者と高齢者でジョークの機能が違うのを感じていて、高齢者はジョークから入って打ち解けてから本題に入る「礼儀作法」のために顔文字やセクハラや駄洒落を使う。
+Now Printing ... : Attention 1
+Now Printing ... : Attention 1  / head 1
+0.0007431388
+Now Printing ... : Attention 1  / head 2
+0.00034532804
+Now Printing ... : Attention 1  / head 3
+0.0011712476
+Now Printing ... : Attention 1  / head 4
+0.00027539345
+Now Printing ... : Attention 1  / head 5
+0.00013478305
+Now Printing ... : Attention 1  / head 6
+0.0001510426
+Now Printing ... : Attention 1  / head 7
+0.000138883
+Now Printing ... : Attention 1  / head 8
+0.00023262293
+Now Printing ... : Attention 1  / head 9
+0.0037890477
+Now Printing ... : Attention 1  / head 10
+0.00045308573
+Now Printing ... : Attention 1  / head 11
+0.00016053946
+Now Printing ... : Attention 1  / head 12
+0.00077184034
+Now Printing ... : Attention 2
+Now Printing ... : Attention 2  / head 1
+0.00043123038
+Now Printing ... : Attention 2  / head 2
+0.0003099164
+Now Printing ... : Attention 2  / head 3
+0.006114694
+Now Printing ... : Attention 2  / head 4
+0.0002960686
+Now Printing ... : Attention 2  / head 5
+0.00022687096
+Now Printing ... : Attention 2  / head 6
+0.008926751
+Now Printing ... : Attention 2  / head 7
+0.00025851643
+Now Printing ... : Attention 2  / head 8
+0.00024649696
+Now Printing ... : Attention 2  / head 9
+0.0002658904
+Now Printing ... : Attention 2  / head 10
+0.00034396615
+Now Printing ... : Attention 2  / head 11
+0.00020465886
+Now Printing ... : Attention 2  / head 12
+0.0002906389
+Now Printing ... : Attention 3
+Now Printing ... : Attention 3  / head 1
+0.0002906305
+Now Printing ... : Attention 3  / head 2
+0.00074506237
+Now Printing ... : Attention 3  / head 3
+0.0004614229
+Now Printing ... : Attention 3  / head 4
+0.00033058008
+Now Printing ... : Attention 3  / head 5
+0.00051762577
+Now Printing ... : Attention 3  / head 6
+0.0003096682
+Now Printing ... : Attention 3  / head 7
+0.0003640923
+Now Printing ... : Attention 3  / head 8
+0.00083451386
+Now Printing ... : Attention 3  / head 9
+0.0004309866
+Now Printing ... : Attention 3  / head 10
+0.00096012856
+Now Printing ... : Attention 3  / head 11
+0.00046893905
+Now Printing ... : Attention 3  / head 12
+0.00022274062
+Now Printing ... : Attention 4
+Now Printing ... : Attention 4  / head 1
+0.00027054682
+Now Printing ... : Attention 4  / head 2
+0.00063500204
+Now Printing ... : Attention 4  / head 3
+0.0005628038
+Now Printing ... : Attention 4  / head 4
+0.0014886772
+Now Printing ... : Attention 4  / head 5
+0.0025503235
+Now Printing ... : Attention 4  / head 6
+0.00031741685
+Now Printing ... : Attention 4  / head 7
+0.00033421436
+Now Printing ... : Attention 4  / head 8
+0.00059096224
+Now Printing ... : Attention 4  / head 9
+0.00018640397
+Now Printing ... : Attention 4  / head 10
+0.00022472667
+Now Printing ... : Attention 4  / head 11
+0.00039697913
+Now Printing ... : Attention 4  / head 12
+0.00027990414
+Now Printing ... : Attention 5
+Now Printing ... : Attention 5  / head 1
+0.00018691257
+Now Printing ... : Attention 5  / head 2
+0.00019669929
+Now Printing ... : Attention 5  / head 3
+0.00031683288
+Now Printing ... : Attention 5  / head 4
+0.00031938724
+Now Printing ... : Attention 5  / head 5
+0.0008688594
+Now Printing ... : Attention 5  / head 6
+0.0003749455
+Now Printing ... : Attention 5  / head 7
+0.00020636313
+Now Printing ... : Attention 5  / head 8
+0.00044163121
+Now Printing ... : Attention 5  / head 9
+0.00065672176
+Now Printing ... : Attention 5  / head 10
+0.00036155118
+Now Printing ... : Attention 5  / head 11
+0.0056831045
+Now Printing ... : Attention 5  / head 12
+0.0021038675
+Now Printing ... : Attention 6
+Now Printing ... : Attention 6  / head 1
+0.00097265927
+Now Printing ... : Attention 6  / head 2
+0.00042545586
+Now Printing ... : Attention 6  / head 3
+0.00083384244
+Now Printing ... : Attention 6  / head 4
+0.0017168181
+Now Printing ... : Attention 6  / head 5
+0.00025032632
+Now Printing ... : Attention 6  / head 6
+0.003606845
+Now Printing ... : Attention 6  / head 7
+0.0017884462
+Now Printing ... : Attention 6  / head 8
+0.0004064432
+Now Printing ... : Attention 6  / head 9
+0.00030758328
+Now Printing ... : Attention 6  / head 10
+0.005944222
+Now Printing ... : Attention 6  / head 11
+0.0002444294
+Now Printing ... : Attention 6  / head 12
+0.00038345795
+Now Printing ... : Attention 7
+Now Printing ... : Attention 7  / head 1
+0.00040700127
+Now Printing ... : Attention 7  / head 2
+0.0011280479
+Now Printing ... : Attention 7  / head 3
+0.002934596
+Now Printing ... : Attention 7  / head 4
+0.0005512354
+Now Printing ... : Attention 7  / head 5
+0.000555417
+Now Printing ... : Attention 7  / head 6
+0.015183214
+Now Printing ... : Attention 7  / head 7
+0.0004225701
+Now Printing ... : Attention 7  / head 8
+0.0011726969
+Now Printing ... : Attention 7  / head 9
+0.0008109586
+Now Printing ... : Attention 7  / head 10
+0.001521573
+Now Printing ... : Attention 7  / head 11
+0.0010304743
+Now Printing ... : Attention 7  / head 12
+0.00035032033
+Now Printing ... : Attention 8
+Now Printing ... : Attention 8  / head 1
+0.0008184025
+Now Printing ... : Attention 8  / head 2
+0.0056471685
+Now Printing ... : Attention 8  / head 3
+0.0042281877
+Now Printing ... : Attention 8  / head 4
+0.014869892
+Now Printing ... : Attention 8  / head 5
+0.0031592022
+Now Printing ... : Attention 8  / head 6
+0.015231625
+Now Printing ... : Attention 8  / head 7
+0.015447369
+Now Printing ... : Attention 8  / head 8
+0.0007389755
+Now Printing ... : Attention 8  / head 9
+0.005187766
+Now Printing ... : Attention 8  / head 10
+0.0017870651
+Now Printing ... : Attention 8  / head 11
+0.006535868
+Now Printing ... : Attention 8  / head 12
+0.000898231
+Now Printing ... : Attention 9
+Now Printing ... : Attention 9  / head 1
+0.005749883
+Now Printing ... : Attention 9  / head 2
+0.0024192668
+Now Printing ... : Attention 9  / head 3
+0.0044789584
+Now Printing ... : Attention 9  / head 4
+0.0045165503
+Now Printing ... : Attention 9  / head 5
+0.01476771
+Now Printing ... : Attention 9  / head 6
+0.0013429397
+Now Printing ... : Attention 9  / head 7
+0.010617075
+Now Printing ... : Attention 9  / head 8
+0.004593012
+Now Printing ... : Attention 9  / head 9
+0.0049938615
+Now Printing ... : Attention 9  / head 10
+0.0050397897
+Now Printing ... : Attention 9  / head 11
+0.0046738107
+Now Printing ... : Attention 9  / head 12
+0.007875194
+Now Printing ... : Attention 10
+Now Printing ... : Attention 10  / head 1
+0.0044434885
+Now Printing ... : Attention 10  / head 2
+0.0023363584
+Now Printing ... : Attention 10  / head 3
+0.0019812149
+Now Printing ... : Attention 10  / head 4
+0.0014916114
+Now Printing ... : Attention 10  / head 5
+0.0035857991
+Now Printing ... : Attention 10  / head 6
+0.0019684313
+Now Printing ... : Attention 10  / head 7
+0.0019043752
+Now Printing ... : Attention 10  / head 8
+0.0018426845
+Now Printing ... : Attention 10  / head 9
+0.004941303
+Now Printing ... : Attention 10  / head 10
+0.008173287
+Now Printing ... : Attention 10  / head 11
+0.0020972528
+Now Printing ... : Attention 10  / head 12
+0.0034282666
+Now Printing ... : Attention 11
+Now Printing ... : Attention 11  / head 1
+0.0013915192
+Now Printing ... : Attention 11  / head 2
+0.0030761568
+Now Printing ... : Attention 11  / head 3
+0.001724116
+Now Printing ... : Attention 11  / head 4
+0.0024274776
+Now Printing ... : Attention 11  / head 5
+0.0031134514
+Now Printing ... : Attention 11  / head 6
+0.0015791397
+Now Printing ... : Attention 11  / head 7
+0.0028439679
+Now Printing ... : Attention 11  / head 8
+0.0044609844
+Now Printing ... : Attention 11  / head 9
+0.0031996334
+Now Printing ... : Attention 11  / head 10
+0.0063435435
+Now Printing ... : Attention 11  / head 11
+0.0038861092
+Now Printing ... : Attention 11  / head 12
+0.002840828
+Now Printing ... : Attention 12
+Now Printing ... : Attention 12  / head 1
+0.005611243
+Now Printing ... : Attention 12  / head 2
+0.0049728877
+Now Printing ... : Attention 12  / head 3
+0.0034527695
+Now Printing ... : Attention 12  / head 4
+0.0044065146
+Now Printing ... : Attention 12  / head 5
+0.0043108463
+Now Printing ... : Attention 12  / head 6
+0.0030397188
+Now Printing ... : Attention 12  / head 7
+0.004843613
+Now Printing ... : Attention 12  / head 8
+0.0039350768
+Now Printing ... : Attention 12  / head 9
+0.0028936262
+Now Printing ... : Attention 12  / head 10
+0.0048433314
+Now Printing ... : Attention 12  / head 11
+0.0035152766
+Now Printing ... : Attention 12  / head 12
+0.003877124

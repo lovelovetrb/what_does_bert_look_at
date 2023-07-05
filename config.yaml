@@ -1,3 +1,4 @@
 model:
-  name: ['cl-tohoku/bert-base-japanese','rinna/japanese-roberta-base','rinna/japanese-gpt2-medium','studio-ousia/luke-japanese-base-lite']
+  # name: ['cl-tohoku/bert-base-japanese', 'rinnna/japanese-gpt2-medium', 'rinna/japanese-roberta-base', 'studio-ousia/luke-japanese-bae-lite', 'cyberagent/open-calm-7b']
+  name: ['cl-tohoku/bert-base-japanese']
 
