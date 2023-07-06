@@ -43,9 +43,7 @@ def main(config):
             model = AutoModelForCausalLM.from_pretrained(
                 model_name, output_attentions=True
             )
-            gen_attention(
-                tokenizer, model, model_name, nrows=tokenizer.num_attention_heads / 4
-            )
+            gen_attention(tokenizer, model, model_name, nrows=6)
         elif model_name == "studio-ousia/luke-japanese-base":
             tokenizer = MLukeTokenizer.from_pretrained(model_name)
             model = LukeModel.from_pretrained(model_name, output_attentions=True)
@@ -55,15 +53,13 @@ def main(config):
             model = AutoModelForCausalLM.from_pretrained(
                 model_name, output_attentions=True
             )
-            gen_attention(
-                tokenizer, model, model_name, nrows=tokenizer.num_attention_heads / 4
-            )
+            gen_attention(tokenizer, model, model_name, nrows=8)
 
 
 # もしAttentionHeadの数が12以上ある場合は、nrowsを変更する
 # 与える値はHead数を4で割った値(切り上げ)
-def gen_attention(tokenizer ,model,model_name, nrows=3):
-     # テキストの読み込み
+def gen_attention(tokenizer, model, model_name, nrows=3):
+    # テキストの読み込み
     with open("./src/sentence.txt", encoding="utf-8") as f:
         index = 1
         # 一行ずつ読み込み while文で回す
@@ -102,7 +98,7 @@ def gen_picture(tokens, outputs, tokenizer, model_name, index, nrows):
         fig, axes = plt.subplots(
             nrows=nrows,
             ncols=4,
-            figsize=(len(row_attention[0]) * 6, nrows * len(row_attention[0])),
+            figsize=(4 * len(row_attention[0]), nrows * len(row_attention[0])),
             dpi=120,
         )
         print("Now Printing ... : Attention", i + 1)
